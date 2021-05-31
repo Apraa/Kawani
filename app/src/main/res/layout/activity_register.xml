@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/RegisterPage"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E4CCBA"
+    tools:context="com.Register">
+
+    <Button
+        android:id="@+id/registerBtn"
+        android:layout_width="114dp"
+        android:layout_height="45dp"
+        android:layout_marginBottom="32dp"
+
+        android:background="@drawable/input_field"
+        android:fontFamily="@font/titillium_web_bold"
+        android:text="@string/RegisterButton"
+        android:textColor="#3A2E39"
+        android:textSize="12sp"
+        app:backgroundTint="#EDB183"
+        app:iconTint="#FFFFFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:strokeColor="#FFFFFF" />
+
+    <EditText
+        android:id="@+id/AddPassword"
+        android:layout_width="300dp"
+        android:layout_height="38dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/input_field"
+        android:ems="10"
+        android:hint="@string/Password"
+        android:inputType="textPassword"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/AddEmailAddress" />
+
+    <EditText
+        android:id="@+id/AddLastName"
+        android:layout_width="300dp"
+        android:layout_height="38dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/input_field"
+        android:ems="10"
+        android:hint="@string/LastName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/AddFirstName" />
+
+    <EditText
+        android:id="@+id/AddFirstName"
+        android:layout_width="300dp"
+        android:layout_height="38dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/input_field"
+        android:ems="10"
+        android:hint="@string/FirstName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/AddPassword" />
+
+    <ImageButton
+        android:id="@+id/BackToLogin"
+        android:layout_width="56dp"
+        android:layout_height="45dp"
+        android:background="#E4CCBA"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/abc_vector_test" />
+
+    <EditText
+        android:id="@+id/AddEmailAddress"
+        android:layout_width="300dp"
+        android:layout_height="38dp"
+        android:layout_marginTop="56dp"
+        android:background="@drawable/input_field"
+        android:ems="10"
+        android:hint="@string/EmailAddress"
+        android:inputType="textEmailAddress"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/AddIDNumber"
+        android:layout_width="300dp"
+        android:layout_height="38dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/input_field"
+        android:ems="10"
+        android:hint="@string/IDNumber"
+        android:inputType="number"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.502"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/AddLastName" />
+
+    <RadioGroup
+        android:id="@+id/Position"
+        android:layout_width="300dp"
+        android:layout_height="65dp"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.504"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/AddIDNumber">
+
+        <RadioButton
+            android:id="@+id/SuperiorChoice"
+            android:layout_width="148dp"
+            android:layout_height="65dp"
+            android:fontFamily="@font/titillium_web_bold"
+            android:text="Superior"
+            app:buttonTint="#EDE8DD" />
+
+        <RadioButton
+            android:id="@+id/SubordinateChoice"
+            android:layout_width="182dp"
+            android:layout_height="65dp"
+            android:fontFamily="@font/titillium_web_bold"
+            android:text="Subordinate"
+            app:buttonTint="@color/AllColor" />
+    </RadioGroup>
+
+    <RadioGroup
+        android:id="@+id/Department"
+        android:layout_width="346dp"
+        android:layout_height="59dp"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.507"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Position">
+
+        <RadioButton
+            android:id="@+id/AccountingChoice"
+            android:layout_width="140dp"
+            android:layout_height="65dp"
+            android:layout_weight="1"
+            android:fontFamily="@font/titillium_web_bold"
+            android:text="Accounting"
+            app:buttonTint="#EDE8DD" />
+
+        <RadioButton
+            android:id="@+id/HRChoice"
+            android:layout_width="120dp"
+            android:layout_height="65dp"
+            android:layout_weight="1"
+            android:fontFamily="@font/titillium_web_bold"
+            android:text="HR"
+            app:buttonTint="#EDE8DD" />
+
+        <RadioButton
+            android:id="@+id/OfficerChoice"
+            android:layout_width="120dp"
+            android:layout_height="65dp"
+            android:layout_weight="1"
+            android:fontFamily="@font/titillium_web_bold"
+            android:text="Officers"
+            app:buttonTint="#EDE8DD" />
+    </RadioGroup>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "478461138073",
+    "firebase_url": "https://kawani-75d12-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "kawani-75d12",
+    "storage_bucket": "kawani-75d12.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:478461138073:android:93b6914636a4f84fb9d408",
+        "android_client_info": {
+          "package_name": "com.example.login"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "478461138073-4feqne30pqqad98u1rhjhfksvulp2a1s.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA6PMay6AX5ReCLA8376yNgzkxEph2_Tb4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "478461138073-4feqne30pqqad98u1rhjhfksvulp2a1s.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

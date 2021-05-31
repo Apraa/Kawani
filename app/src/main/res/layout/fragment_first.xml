@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E4CCBA"
+    tools:context="com.FirstFragment">
+
+    <EditText
+        android:id="@+id/EmailAddress"
+        android:layout_width="280dp"
+        android:layout_height="39dp"
+        android:layout_marginTop="240dp"
+        android:background="@drawable/input_field"
+        android:ems="10"
+        android:hint="@string/EmailAddress"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toTopOf="@+id/LoginBtn"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.507"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.363" />
+
+    <EditText
+        android:id="@+id/Password"
+        android:layout_width="280dp"
+        android:layout_height="38dp"
+        android:background="@drawable/input_field"
+        android:ems="10"
+        android:hint="@string/Password"
+        android:inputType="textPassword"
+        app:layout_constraintBottom_toTopOf="@+id/LoginBtn"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.512"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/EmailAddress"
+        app:layout_constraintVertical_bias="0.469" />
+
+    <Button
+        android:id="@+id/LoginBtn"
+        android:layout_width="84dp"
+        android:layout_height="46dp"
+        android:layout_marginBottom="240dp"
+        android:background="@drawable/input_field"
+
+        android:fontFamily="@font/titillium_web_bold"
+        android:text="@string/LoginButton"
+        android:textColor="#3A2E39"
+        android:textSize="12sp"
+        app:backgroundTint="#EDB183"
+        app:iconTint="#FFFFFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.504"
+        app:layout_constraintStart_toStartOf="parent"
+        app:strokeColor="#FFFFFF" />
+
+    <Button
+        android:id="@+id/RegisterBtn"
+        android:layout_width="114dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="23dp"
+        android:layout_marginBottom="172dp"
+
+        android:background="@drawable/input_field"
+        android:fontFamily="@font/titillium_web_bold"
+        android:text="@string/RegisterButton"
+        android:textColor="#3A2E39"
+        android:textSize="12sp"
+        app:backgroundTint="#EDB183"
+        app:iconTint="#FFFFFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/LoginBtn"
+        app:strokeColor="#FFFFFF" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="159dp"
+        android:layout_height="63dp"
+        android:fontFamily="@font/vidaloka"
+        android:text="kawani."
+        android:textColor="#3A2E39"
+        android:textSize="48sp"
+        app:layout_constraintBottom_toTopOf="@+id/EmailAddress"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.953" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
