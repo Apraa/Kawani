@@ -42,7 +42,7 @@ FirebaseAuth fAuth;
         FirebaseDatabase database = FirebaseDatabase.getInstance();
         DatabaseReference myRef = database.getReference("message");
 
-        myRef.setValue("Booba");
+        myRef.setValue("Cool");
 
         view.findViewById(R.id.LoginBtn).setOnClickListener(new View.OnClickListener() {
             @Override
