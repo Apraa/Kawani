@@ -39,7 +39,10 @@ FirebaseAuth fAuth;
         EmailAddress = view.findViewById(R.id.EmailAddress);
         Password = view.findViewById(R.id.Password);
         fAuth = FirebaseAuth.getInstance();
+        FirebaseDatabase database = FirebaseDatabase.getInstance();
+        DatabaseReference myRef = database.getReference("message");
 
+        myRef.setValue("Booba");
 
         view.findViewById(R.id.LoginBtn).setOnClickListener(new View.OnClickListener() {
             @Override
