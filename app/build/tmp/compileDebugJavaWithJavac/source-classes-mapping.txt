@@ -1,16 +1,18 @@
-com/SecondFragment.java
- com.SecondFragment
- com.SecondFragment$1
-com/Accounts.java
- com.Accounts
 com/Register.java
  com.Register
  com.Register$1
  com.Register$1$1
-com/example/login/BuildConfig.java
- com.example.login.BuildConfig
+com/Accounts.java
+ com.Accounts
 com/MainActivity.java
  com.MainActivity
+com/example/login/BuildConfig.java
+ com.example.login.BuildConfig
+com/Authentication.java
+ com.Authentication
+com/SecondFragment.java
+ com.SecondFragment
+ com.SecondFragment$1
 com/FirstFragment.java
  com.FirstFragment
  com.FirstFragment$1
