@@ -1,4 +1,4 @@
-#Mon May 31 22:20:25 CST 2021
-base.0=C\:\\Users\\Dexter\\Desktop\\LoginSystem\\app\\build\\intermediates\\dex\\debug\\mergeDexDebug\\classes.dex
+#Tue Jun 01 00:42:16 SGT 2021
+base.0=C\:\\Users\\USER\\StudioProjects\\LoginSystem\\app\\build\\intermediates\\dex\\debug\\mergeDexDebug\\classes.dex
 renamed.0=classes.dex
 path.0=classes.dex
