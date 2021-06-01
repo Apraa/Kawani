@@ -47,5 +47,19 @@
         android:id="@+id/HomePage"
         android:name="com.HomePage"
         android:label="Home Page::"
-        tools:layout="@layout/fragment_home_page"/>
+        tools:layout="@layout/fragment_home_page">
+    <action
+        android:id="@+id/action_HomePage_to_UserProfile"
+        app:destination="@id/UserProfile"/>
+</fragment>
+
+    <fragment
+        android:id="@+id/UserProfile"
+        android:name="com.UserProfile"
+        android:label="User Profile:"
+        tools:layout="@layout/activity_register">
+        <action
+            android:id="@+id/action_UserProfile_to_HomePage"
+            app:destination="@id/HomePage" />
+    </fragment>
 </navigation>

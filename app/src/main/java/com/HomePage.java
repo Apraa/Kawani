@@ -1,5 +1,6 @@
 package com;
 
+import android.annotation.SuppressLint;
 import android.content.Intent;
 import android.os.Bundle;
 import android.util.Log;
@@ -7,6 +8,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.EditText;
+import android.widget.TextView;
 import android.widget.Toast;
 
 import androidx.annotation.NonNull;
@@ -36,7 +38,7 @@ public class HomePage extends Fragment{
     String Position;
     String Department;
     String IDNumber;
-
+    TextView ProfileInfo;
 
     @Override
     public View onCreateView(
@@ -47,9 +49,11 @@ public class HomePage extends Fragment{
         return inflater.inflate(R.layout.fragment_home_page, container, false);
     }
 
+    @SuppressLint("SetTextI18n")
     public void onViewCreated(@NonNull View view, Bundle savedInstanceState) {
         super.onViewCreated(view, savedInstanceState);
         FirebaseUser user = FirebaseAuth.getInstance().getCurrentUser();
+
         if (user != null) {
             // Name, email address, and profile photo Url
             email = user.getEmail();
@@ -63,7 +67,7 @@ public class HomePage extends Fragment{
             // FirebaseUser.getIdToken() instead.
             String uid = user.getUid();
         }
-        Toast.makeText(getContext(),email,Toast.LENGTH_SHORT).show();
+
         DatabaseReference myRef = FirebaseDatabase.getInstance().getReference("users");
 
         final Query userQuery = myRef.orderByChild("Email").equalTo(email);
@@ -78,6 +82,7 @@ public class HomePage extends Fragment{
                 LastName = dataSnapshot.child("LastName").getValue(String.class);
                 Position = dataSnapshot.child("Position").getValue(String.class);
                 Department = dataSnapshot.child("Department").getValue(String.class);
+
             }
 
             @Override
@@ -101,12 +106,13 @@ public class HomePage extends Fragment{
             }
         });
 
-        view.findViewById(R.id.Home).setOnClickListener(new View.OnClickListener() {
+
+
+        view.findViewById(R.id.Profile).setOnClickListener(new View.OnClickListener() {
             @Override
-            public void onClick(View view) {
-//                NavHostFragment.findNavController(HomePage.this)
-//                        .navigate(R.id.action_SecondFragment_to_FirstFragment);
-                Toast.makeText(getActivity(),FirstName,Toast.LENGTH_SHORT).show();
+            public void onClick(View v) {
+                NavHostFragment.findNavController(HomePage.this)
+                        .navigate(R.id.UserProfile);
             }
         });
     }

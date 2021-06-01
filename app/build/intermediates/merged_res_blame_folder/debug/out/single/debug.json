@@ -80,12 +80,20 @@
         "source": "C:\\Users\\Dexter\\Desktop\\LoginSystem\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher.xml"
     },
     {
+        "merged": "C:\\Users\\Dexter\\Desktop\\LoginSystem\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_history_qr.xml.flat",
+        "source": "C:\\Users\\Dexter\\Desktop\\LoginSystem\\app\\src\\main\\res\\layout\\activity_history_qr.xml"
+    },
+    {
         "merged": "C:\\Users\\Dexter\\Desktop\\LoginSystem\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_launcher_background.xml.flat",
         "source": "C:\\Users\\Dexter\\Desktop\\LoginSystem\\app\\src\\main\\res\\drawable\\ic_launcher_background.xml"
     },
     {
         "merged": "C:\\Users\\Dexter\\Desktop\\LoginSystem\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher.png.flat",
         "source": "C:\\Users\\Dexter\\Desktop\\LoginSystem\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\Dexter\\Desktop\\LoginSystem\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_user_profile.xml.flat",
+        "source": "C:\\Users\\Dexter\\Desktop\\LoginSystem\\app\\src\\main\\res\\layout\\fragment_user_profile.xml"
     },
     {
         "merged": "C:\\Users\\Dexter\\Desktop\\LoginSystem\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_baseline_person_24.xml.flat",
