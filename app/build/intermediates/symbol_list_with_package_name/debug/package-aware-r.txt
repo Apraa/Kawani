@@ -1832,6 +1832,7 @@ id FUNCTION
 id FirstFragment
 id HRChoice
 id Home
+id HomePage
 id Location
 id LoginBtn
 id META
@@ -1889,6 +1890,7 @@ id accessibility_custom_action_9
 id action0
 id action_FirstFragment_to_RegisterPage
 id action_FirstFragment_to_SecondFragment
+id action_HomePage_to_QR
 id action_RegisterPage_to_FirstFragment
 id action_SecondFragment_to_FirstFragment
 id action_bar
@@ -1935,6 +1937,8 @@ id beginOnFirstDraw
 id beginning
 id blocking
 id bottom
+id bottomAppBar
+id bottomAppBar2
 id bounce
 id browser_actions_header_text
 id browser_actions_menu_item_icon
@@ -2202,6 +2206,7 @@ id search_mag_icon
 id search_plate
 id search_src_text
 id search_voice_btn
+id secondFragmentToHomePage
 id select_dialog_listview
 id selected
 id selection_type
@@ -2264,6 +2269,8 @@ id textSpacerNoButtons
 id textSpacerNoTitle
 id textStart
 id textTop
+id textView0
+id textView1
 id textView2
 id text_input_end_icon
 id text_input_error_icon
@@ -2385,6 +2392,7 @@ layout abc_search_dropdown_item_icons_2line
 layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
+layout activity_history_qr
 layout activity_main
 layout activity_qr_profile
 layout activity_read_qr
@@ -2409,6 +2417,8 @@ layout design_navigation_menu_item
 layout design_text_input_end_icon
 layout design_text_input_start_icon
 layout fragment_first
+layout fragment_home_page
+layout fragment_qr_profile
 layout fragment_second
 layout material_chip_input_combo
 layout material_clock_display

@@ -33,7 +33,6 @@ import static android.content.ContentValues.TAG;
 public class SecondFragment extends Fragment {
 private static int SPALSH_TIME = 2000;
 
-
     @Override
     public View onCreateView(
             LayoutInflater inflater, ViewGroup container,
