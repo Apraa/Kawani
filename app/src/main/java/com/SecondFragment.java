@@ -78,10 +78,6 @@ public class SecondFragment extends Fragment {
                  LastName = dataSnapshot.child("LastName").getValue(String.class);
                  Position = dataSnapshot.child("Position").getValue(String.class);
                  Department = dataSnapshot.child("Department").getValue(String.class);
-
-
-
-
             }
 
             @Override
@@ -104,7 +100,6 @@ public class SecondFragment extends Fragment {
 
             }
         });
-
 
         view.findViewById(R.id.Home).setOnClickListener(new View.OnClickListener() {
             @Override
