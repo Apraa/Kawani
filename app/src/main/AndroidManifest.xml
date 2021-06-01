@@ -14,7 +14,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Login">
         <activity android:name="com.ReadQR"></activity>
-        <activity android:name="com.QRProfile" />
+        <activity android:name="com.QR_Profile" />
         <activity android:name="com.Register" />
         <activity
             android:name="com.MainActivity"

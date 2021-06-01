@@ -2,15 +2,13 @@ package com;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.os.Handler;
 import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Toast;
-
-import androidx.appcompat.app.AppCompatActivity;
 
 import androidx.annotation.NonNull;
 import androidx.fragment.app.Fragment;
@@ -33,12 +31,8 @@ import java.util.Arrays;
 import static android.content.ContentValues.TAG;
 
 public class SecondFragment extends Fragment {
-    String email;
-    String FirstName;
-    String LastName;
-    String Position;
-    String Department;
-    String IDNumber;
+private static int SPALSH_TIME = 2000;
+
 
     @Override
     public View onCreateView(
@@ -51,67 +45,14 @@ public class SecondFragment extends Fragment {
 
     public void onViewCreated(@NonNull View view, Bundle savedInstanceState) {
         super.onViewCreated(view, savedInstanceState);
-        FirebaseUser user = FirebaseAuth.getInstance().getCurrentUser();
-        if (user != null) {
-            // Name, email address, and profile photo Url
-             email = user.getEmail();
-
-
-            // Check if user's email is verified
-            boolean emailVerified = user.isEmailVerified();
-
-            // The user's ID, unique to the Firebase project. Do NOT use this value to
-            // authenticate with your backend server, if you have one. Use
-            // FirebaseUser.getIdToken() instead.
-            String uid = user.getUid();
-        }
-        Toast.makeText(getContext(),email,Toast.LENGTH_SHORT).show();
-        DatabaseReference myRef = FirebaseDatabase.getInstance().getReference("users");
-
-        final Query userQuery = myRef.orderByChild("Email").equalTo(email);
-
-
-        userQuery.addChildEventListener(new ChildEventListener() {
-            public void onChildAdded(DataSnapshot dataSnapshot, String s) {
-
-                //Information from real time database
-                 IDNumber = dataSnapshot.getKey();
-                 FirstName = dataSnapshot.child("FirstName").getValue(String.class);
-                 LastName = dataSnapshot.child("LastName").getValue(String.class);
-                 Position = dataSnapshot.child("Position").getValue(String.class);
-                 Department = dataSnapshot.child("Department").getValue(String.class);
-            }
-
+        new Handler().postDelayed(new Runnable() {
             @Override
-            public void onChildChanged( DataSnapshot snapshot, String previousChildName) {
+            public void run() {
 
+                NavHostFragment.findNavController(SecondFragment.this)
+                        .navigate(R.id.HomePage);
             }
-
-            @Override
-            public void onChildRemoved(DataSnapshot snapshot) {
-
-            }
-
-            @Override
-            public void onChildMoved(DataSnapshot snapshot, String previousChildName) {
-
-            }
-
-            @Override
-            public void onCancelled(DatabaseError error) {
-
-            }
-        });
-
-        view.findViewById(R.id.Home).setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-//                NavHostFragment.findNavController(SecondFragment.this)
-//                        .navigate(R.id.action_SecondFragment_to_FirstFragment);
-                Toast.makeText(getActivity(),FirstName,Toast.LENGTH_SHORT).show();
-
-            }
-        });
+        },SPALSH_TIME);
 
     }
 }

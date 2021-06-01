@@ -18,66 +18,15 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:fontFamily="@font/vidaloka"
         android:text="Welcome!"
         android:textColor="#E4CCBA"
-        android:fontFamily="@font/vidaloka"
         android:textSize="62dp"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintHorizontal_bias="0.496"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.403" />
-
-    <ImageButton
-        android:id="@+id/Home"
-        android:layout_width="55dp"
-        android:layout_height="55dp"
-        android:layout_marginStart="20dp"
-        android:backgroundTint="#E4CCBA"
-        android:src="@drawable/ic_baseline_home_24"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.991"
-        tools:src="@drawable/ic_baseline_home_24" />
-
-    <ImageButton
-        android:id="@+id/Profile"
-        android:layout_width="55dp"
-        android:layout_height="55dp"
-        android:layout_marginStart="55dp"
-        android:backgroundTint="#E4CCBA"
-        android:src="@drawable/ic_baseline_person_24"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/Home"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.991" />
-
-    <ImageButton
-        android:id="@+id/Location"
-        android:layout_width="55dp"
-        android:layout_height="55dp"
-        android:layout_marginStart="55dp"
-        android:backgroundTint="#E4CCBA"
-        android:src="@drawable/ic_baseline_my_location_24"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/Profile"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.991" />
-
-    <ImageView
-        android:id="@+id/Annoucement"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="55dp"
-        android:layout_marginEnd="20dp"
-        android:src="@drawable/ic_baseline_archive_24"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toEndOf="@+id/Location"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.991" />
+        app:layout_constraintVertical_bias="0.474" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

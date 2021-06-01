@@ -1831,6 +1831,7 @@ int id FUNCTION 0x7f0a000e
 int id FirstFragment 0x7f0a000f
 int id HRChoice 0x7f0a0010
 int id Home 0x7f0a0011
+int id HomePage 0x7f0a01fe
 int id Location 0x7f0a0012
 int id LoginBtn 0x7f0a0013
 int id META 0x7f0a0014
@@ -1934,6 +1935,8 @@ int id beginOnFirstDraw 0x7f0a0075
 int id beginning 0x7f0a0076
 int id blocking 0x7f0a0077
 int id bottom 0x7f0a0078
+int id bottomAppBar 0x7f0a01fd
+int id bottomAppBar2 0x7f0a0200
 int id bounce 0x7f0a0079
 int id browser_actions_header_text 0x7f0a007a
 int id browser_actions_menu_item_icon 0x7f0a007b
@@ -2201,6 +2204,7 @@ int id search_mag_icon 0x7f0a0180
 int id search_plate 0x7f0a0181
 int id search_src_text 0x7f0a0182
 int id search_voice_btn 0x7f0a0183
+int id secondFragmentToHomePage 0x7f0a01ff
 int id select_dialog_listview 0x7f0a0184
 int id selected 0x7f0a0185
 int id selection_type 0x7f0a0186
@@ -2408,6 +2412,7 @@ int layout design_navigation_menu_item 0x7f0d0030
 int layout design_text_input_end_icon 0x7f0d0031
 int layout design_text_input_start_icon 0x7f0d0032
 int layout fragment_first 0x7f0d0033
+int layout fragment_home_page 0x7f0d0083
 int layout fragment_second 0x7f0d0034
 int layout material_chip_input_combo 0x7f0d0035
 int layout material_clock_display 0x7f0d0036
