@@ -35,6 +35,8 @@ anim nav_default_enter_anim
 anim nav_default_exit_anim
 anim nav_default_pop_enter_anim
 anim nav_default_pop_exit_anim
+anim onesignal_fade_in
+anim onesignal_fade_out
 animator design_appbar_state_list_animator
 animator design_fab_hide_motion_spec
 animator design_fab_show_motion_spec
@@ -983,7 +985,11 @@ attr yearStyle
 attr yearTodayStyle
 bool abc_action_bar_embed_tabs
 bool abc_config_actionMenuItemAllCaps
+bool enable_system_alarm_service_default
+bool enable_system_foreground_service_default
+bool enable_system_job_service_default
 bool mtrl_btn_textappearance_all_caps
+bool workmanager_test_configuration
 color AllColor
 color abc_background_cache_hint_selector_material_dark
 color abc_background_cache_hint_selector_material_light
@@ -1696,6 +1702,7 @@ drawable abc_textfield_search_material
 drawable abc_vector_test
 drawable avd_hide_password
 drawable avd_show_password
+drawable bar
 drawable btn_checkbox_checked_mtrl
 drawable btn_checkbox_checked_to_unchecked_mtrl_animation
 drawable btn_checkbox_unchecked_mtrl
@@ -1743,6 +1750,7 @@ drawable ic_mtrl_checked_circle
 drawable ic_mtrl_chip_checked_black
 drawable ic_mtrl_chip_checked_circle
 drawable ic_mtrl_chip_close_circle
+drawable ic_os_notification_fallback_white_24dp
 drawable input_field
 drawable material_cursor_drawable
 drawable material_ic_calendar_black_24dp
@@ -2099,6 +2107,11 @@ id notification_main_column
 id notification_main_column_container
 id off
 id on
+id os_bgimage_notif_bgimage
+id os_bgimage_notif_bgimage_align_layout
+id os_bgimage_notif_bgimage_right_aligned
+id os_bgimage_notif_body
+id os_bgimage_notif_title
 id outline
 id outward
 id packed
@@ -2396,6 +2409,7 @@ layout notification_template_media
 layout notification_template_media_custom
 layout notification_template_part_chronometer
 layout notification_template_part_time
+layout onesignal_bgimage_notif_layout
 layout select_dialog_item_material
 layout select_dialog_multichoice_material
 layout select_dialog_singlechoice_material
@@ -2419,6 +2433,7 @@ mipmap ic_launcher
 mipmap ic_launcher_round
 navigation nav_graph
 plurals mtrl_badge_content_description
+raw consumer_onesignal_keep
 string Department
 string EmailAddress
 string FirstName
@@ -2456,6 +2471,7 @@ string abc_shareactionprovider_share_with
 string abc_shareactionprovider_share_with_application
 string abc_toolbar_collapse_description
 string action_settings
+string androidx_startup
 string app_name
 string appbar_scrolling_view_behavior
 string bottom_sheet_behavior
@@ -2488,6 +2504,7 @@ string error_icon_content_description
 string exposed_dropdown_menu_content_description
 string fab_transformation_scrim_behavior
 string fab_transformation_sheet_behavior
+string fcm_fallback_notification_channel_label
 string firebase_database_url
 string first_fragment_label
 string gcm_defaultSenderId
@@ -2501,6 +2518,10 @@ string hello_second_fragment
 string hide_bottom_view_on_scroll_behavior
 string icon_content_description
 string item_view_role_description
+string location_not_available_message
+string location_not_available_open_settings_message
+string location_not_available_open_settings_option
+string location_not_available_title
 string material_clock_display_divider
 string material_clock_toggle_content_description
 string material_hour_selection
