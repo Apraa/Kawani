@@ -42,7 +42,7 @@
         android:id="@+id/LoginBtn"
         android:layout_width="84dp"
         android:layout_height="46dp"
-        android:layout_marginBottom="240dp"
+        android:layout_marginBottom="244dp"
         android:background="@drawable/input_field"
 
         android:fontFamily="@font/titillium_web_bold"
@@ -53,7 +53,7 @@
         app:iconTint="#FFFFFF"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.504"
+        app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:strokeColor="#FFFFFF" />
 
@@ -76,6 +76,7 @@
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/LoginBtn"
+        app:layout_constraintVertical_bias="0.0"
         app:strokeColor="#FFFFFF" />
 
     <TextView

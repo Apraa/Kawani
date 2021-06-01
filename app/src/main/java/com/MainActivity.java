@@ -16,16 +16,24 @@ import android.view.View;
 import android.view.Menu;
 import android.view.MenuItem;
 
+import com.onesignal.OneSignal;
+
 public class MainActivity extends AppCompatActivity {
+
+    private static final String ONESIGNAL_APP_ID = "08c3d5b7-f3a5-4406-b394-d3da6db079ae";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+
+        // Enable verbose OneSignal logging to debug issues if needed.
+        OneSignal.setLogLevel(OneSignal.LOG_LEVEL.VERBOSE, OneSignal.LOG_LEVEL.NONE);
+
+        // OneSignal Initialization
+        OneSignal.initWithContext(this);
+        OneSignal.setAppId(ONESIGNAL_APP_ID);
+
         setContentView(R.layout.activity_main);
-
-
-
-
     }
 
     @Override
