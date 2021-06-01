@@ -47,5 +47,14 @@
         android:id="@+id/HomePage"
         android:name="com.HomePage"
         android:label="Home Page::"
-        tools:layout="@layout/fragment_home_page"/>
+        tools:layout="@layout/fragment_home_page">
+        <action
+            android:id="@+id/action_HomePage_to_QR"
+            app:destination="@id/activity_ReadQR_previewView" />
+    </fragment>
+    <fragment
+        android:id="@+id/activity_ReadQR_previewView"
+        android:name="com.QrProfile"
+        android:label="QR Profile"
+        tools:layout="@layout/fragment_qr_profile"/>
 </navigation>

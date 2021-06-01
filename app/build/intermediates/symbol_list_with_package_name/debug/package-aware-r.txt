@@ -1890,6 +1890,7 @@ id accessibility_custom_action_9
 id action0
 id action_FirstFragment_to_RegisterPage
 id action_FirstFragment_to_SecondFragment
+id action_HomePage_to_QR
 id action_RegisterPage_to_FirstFragment
 id action_SecondFragment_to_FirstFragment
 id action_bar
@@ -2268,6 +2269,8 @@ id textSpacerNoButtons
 id textSpacerNoTitle
 id textStart
 id textTop
+id textView0
+id textView1
 id textView2
 id text_input_end_icon
 id text_input_error_icon
@@ -2389,6 +2392,7 @@ layout abc_search_dropdown_item_icons_2line
 layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
+layout activity_history_qr
 layout activity_main
 layout activity_qr_profile
 layout activity_read_qr
@@ -2414,6 +2418,7 @@ layout design_text_input_end_icon
 layout design_text_input_start_icon
 layout fragment_first
 layout fragment_home_page
+layout fragment_qr_profile
 layout fragment_second
 layout material_chip_input_combo
 layout material_clock_display
