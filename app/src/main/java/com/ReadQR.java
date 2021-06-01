@@ -58,7 +58,6 @@ public class ReadQR extends AppCompatActivity {
         qrCodeFoundButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                //Toast.makeText(getApplicationContext(), qrCode, Toast.LENGTH_SHORT).show();
                 String[] x = parseQRData(qrCode);
                 String write = String.format("%s,%s,%s", x[0], x[1], x[2]);
                 appendFile(write);
@@ -164,8 +163,6 @@ public class ReadQR extends AppCompatActivity {
         try {
             fos = openFileOutput(fileName, MODE_PRIVATE);
             fos.write(text.getBytes());
-            Toast.makeText(this, "Saved to " + getFilesDir() + "/" + fileName,
-                    Toast.LENGTH_LONG).show();
         } catch (IOException e) {
             e.printStackTrace();
         } finally {
