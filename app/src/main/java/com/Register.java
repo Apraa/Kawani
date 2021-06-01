@@ -35,9 +35,10 @@ public class Register extends Fragment {
     RadioButton PositionChoice;
     RadioGroup Department;
     RadioButton DepartmentChoice;
+    int DepartmentID;
+    int PositionID;
     FirebaseAuth fAuth;
-    FirebaseDatabase RootNode;
-    DatabaseReference Users;
+
     @Override
     public View onCreateView(
             LayoutInflater inflater, ViewGroup container,
@@ -57,19 +58,19 @@ public class Register extends Fragment {
         IDNumber = view.findViewById(R.id.AddIDNumber);
         Position = view.findViewById(R.id.Position);
         Department = view.findViewById(R.id.Department);
-        int DepartmentID = Department.getCheckedRadioButtonId();
-        int PositionID = Position.getCheckedRadioButtonId();
-        PositionChoice = view.findViewById(PositionID);
+
         fAuth = FirebaseAuth.getInstance();
-        Department = view.findViewById(R.id.Department);
+
 
 
 
         view.findViewById(R.id.registerBtn).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-
-
+                DepartmentID = Department.getCheckedRadioButtonId();
+                PositionID = Position.getCheckedRadioButtonId();
+                PositionChoice = view.findViewById(PositionID);
+                DepartmentChoice = view.findViewById(DepartmentID);
 
                     if(TextUtils.isEmpty(EmailAddress.getText().toString().trim()))
                     {
@@ -107,20 +108,22 @@ public class Register extends Fragment {
                     Toast.makeText(getActivity(), "Please enter your ID Number", Toast.LENGTH_SHORT).show();
                     return;
                 }
-                if(DepartmentID == 0)
-                {
-
-                    Toast.makeText(getActivity(), "Choose a department", Toast.LENGTH_SHORT).show();
-                    return;
-                }
-                if(PositionID == 0)
+                if(PositionID == -1)
                 {
 
                     Toast.makeText(getActivity(), "Choose a position", Toast.LENGTH_SHORT).show();
                     return;
                 }
+                if(DepartmentID == -1)
+                {
+
+                    Toast.makeText(getActivity(), "Choose a department", Toast.LENGTH_SHORT).show();
+                    return;
+                }
+
                     String email = EmailAddress.getText().toString().trim();
                     String password = AddPassword.getText().toString().trim();
+                //email and password is saved into authentication
                 fAuth.createUserWithEmailAndPassword(email,password).addOnCompleteListener(new OnCompleteListener<AuthResult>() {
                     @Override
                     public void onComplete(@NonNull Task<AuthResult> task) {
@@ -136,6 +139,18 @@ public class Register extends Fragment {
                     }
                     }
                 });
+                //registers all these infos into real time data base
+                String IDNumberW = IDNumber.getText().toString().trim();
+                String FirstNameW = FirstName.getText().toString().trim();
+                String LastNameW = LastName.getText().toString().trim();
+                String PositionChoiceW = PositionChoice.getText().toString().trim();
+                String DepartmentChoiceW = DepartmentChoice.getText().toString().trim();
+                DatabaseReference UserRef = FirebaseDatabase.getInstance().getReference("users");
+                UserRef.child(IDNumberW).child("FirstName").setValue(FirstNameW);
+                UserRef.child(IDNumberW).child("LastName").setValue(LastNameW);
+                UserRef.child(IDNumberW).child("Email").setValue(email);
+                UserRef.child(IDNumberW).child("Position").setValue(PositionChoiceW);
+                UserRef.child(IDNumberW).child("Department").setValue(DepartmentChoiceW);
 
 
             }
