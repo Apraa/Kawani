@@ -4,6 +4,23 @@
             "outputFile": "C:\\Users\\USER\\StudioProjects\\LoginSystem\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-zh-rHK\\values-zh-rHK.xml",
             "map": [
                 {
+                    "source": "C:\\Users\\USER\\.gradle\\caches\\transforms-2\\files-2.1\\79d3bd26ca1905b0b0e17cb8b2095175\\jetified-zxing-android-embedded-3.6.0\\res\\values-zh-rHK\\values-zh-rHK.xml",
+                    "from": {
+                        "startLines": "2,3,4,5",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "55,104,151,244",
+                        "endColumns": "48,46,92,69",
+                        "endOffsets": "99,146,239,309"
+                    },
+                    "to": {
+                        "startLines": "110,111,112,113",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "9348,9397,9444,9537",
+                        "endColumns": "48,46,92,69",
+                        "endOffsets": "9392,9439,9532,9602"
+                    }
+                },
+                {
                     "source": "C:\\Users\\USER\\.gradle\\caches\\transforms-2\\files-2.1\\86fe8bb88fb0168e19d54ab29ee46b89\\jetified-firebase-messaging-22.0.0\\res\\values-zh-rHK\\values.xml",
                     "from": {
                         "startLines": "4",

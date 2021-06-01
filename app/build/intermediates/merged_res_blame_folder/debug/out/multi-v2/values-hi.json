@@ -4,6 +4,23 @@
             "outputFile": "C:\\Users\\USER\\StudioProjects\\LoginSystem\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-hi\\values-hi.xml",
             "map": [
                 {
+                    "source": "C:\\Users\\USER\\.gradle\\caches\\transforms-2\\files-2.1\\79d3bd26ca1905b0b0e17cb8b2095175\\jetified-zxing-android-embedded-3.6.0\\res\\values-hi\\values-hi.xml",
+                    "from": {
+                        "startLines": "2,3,4,5",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "55,112,163,329",
+                        "endColumns": "56,50,165,102",
+                        "endOffsets": "107,158,324,427"
+                    },
+                    "to": {
+                        "startLines": "110,111,112,113",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "10483,10540,10591,10757",
+                        "endColumns": "56,50,165,102",
+                        "endOffsets": "10535,10586,10752,10855"
+                    }
+                },
+                {
                     "source": "C:\\Users\\USER\\.gradle\\caches\\transforms-2\\files-2.1\\9f0323cfe0a7adc333a087d50bba363f\\core-1.5.0\\res\\values-hi\\values-hi.xml",
                     "from": {
                         "startLines": "2",

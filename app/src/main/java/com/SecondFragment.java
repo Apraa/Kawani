@@ -6,8 +6,11 @@ import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Toast;
+
+import androidx.appcompat.app.AppCompatActivity;
 
 import androidx.annotation.NonNull;
 import androidx.fragment.app.Fragment;
@@ -36,7 +39,6 @@ public class SecondFragment extends Fragment {
     String Position;
     String Department;
     String IDNumber;
-
 
     @Override
     public View onCreateView(
@@ -107,7 +109,9 @@ public class SecondFragment extends Fragment {
 //                NavHostFragment.findNavController(SecondFragment.this)
 //                        .navigate(R.id.action_SecondFragment_to_FirstFragment);
                 Toast.makeText(getActivity(),FirstName,Toast.LENGTH_SHORT).show();
+
             }
         });
+
     }
 }
