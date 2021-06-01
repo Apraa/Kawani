@@ -68,7 +68,7 @@ public class SecondFragment extends Fragment {
 
         final Query userQuery = myRef.orderByChild("Email").equalTo(email);
 
-
+        //finds the parent based on email (child)
         userQuery.addChildEventListener(new ChildEventListener() {
             public void onChildAdded(DataSnapshot dataSnapshot, String s) {
 
