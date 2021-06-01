@@ -20,6 +20,20 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.397" />
 
+    <com.google.android.material.bottomappbar.BottomAppBar
+        android:id="@+id/bottomAppBar"
+        style="@style/Widget.MaterialComponents.BottomAppBar.Colored"
+        android:layout_width="418dp"
+        android:layout_height="58dp"
+        android:layout_gravity="bottom"
+        android:backgroundTint="#E4CCBA"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
+
     <Button
         android:id="@+id/btn"
         android:layout_width="150dp"
@@ -37,51 +51,52 @@
         android:id="@+id/Home"
         android:layout_width="55dp"
         android:layout_height="55dp"
-        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
         android:backgroundTint="#E4CCBA"
         android:src="@drawable/ic_baseline_home_24"
         app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/Profile"
+        app:layout_constraintHorizontal_bias="0.39"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.991"
+        app:layout_constraintVertical_bias="1.0"
         tools:src="@drawable/ic_baseline_home_24" />
 
     <ImageButton
         android:id="@+id/Profile"
         android:layout_width="55dp"
         android:layout_height="55dp"
-        android:layout_marginStart="55dp"
         android:backgroundTint="#E4CCBA"
         android:src="@drawable/ic_baseline_person_24"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/Home"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.337"
+        app:layout_constraintStart_toStartOf="@+id/bottomAppBar"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.991" />
+        app:layout_constraintVertical_bias="1.0" />
 
     <ImageButton
         android:id="@+id/Location"
         android:layout_width="55dp"
         android:layout_height="55dp"
-        android:layout_marginStart="55dp"
+        android:layout_marginStart="236dp"
         android:backgroundTint="#E4CCBA"
         android:src="@drawable/ic_baseline_my_location_24"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/Profile"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.991" />
+        app:layout_constraintVertical_bias="1.0" />
 
-    <ImageView
+    <ImageButton
         android:id="@+id/Annoucement"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="55dp"
-        android:layout_marginEnd="20dp"
+        android:layout_width="63dp"
+        android:layout_height="55dp"
+        android:layout_marginEnd="16dp"
+        android:backgroundTint="#E4CCBA"
         android:src="@drawable/ic_baseline_archive_24"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toEndOf="@+id/Location"
+        app:layout_constraintEnd_toEndOf="@+id/bottomAppBar"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.991" />
+        app:layout_constraintVertical_bias="1.0" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
