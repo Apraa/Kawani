@@ -29,6 +29,12 @@ import android.widget.Toast;
 
 import com.google.common.util.concurrent.ListenableFuture;
 
+import java.io.BufferedReader;
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
+import java.io.FileOutputStream;
+import java.io.IOException;
+import java.io.InputStreamReader;
 import java.util.concurrent.ExecutionException;
 
 public class ReadQR extends AppCompatActivity {
@@ -53,7 +59,9 @@ public class ReadQR extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 //Toast.makeText(getApplicationContext(), qrCode, Toast.LENGTH_SHORT).show();
-                parseQRData(qrCode);
+                String[] x = parseQRData(qrCode);
+                String write = String.format("%s,%s,%s", x[0], x[1], x[2]);
+                appendFile(write);
                 Log.i(MainActivity.class.getSimpleName(), "QR Code Found: " + qrCode);
             }
         });
@@ -146,6 +154,83 @@ public class ReadQR extends AppCompatActivity {
         }
         Toast.makeText(getApplicationContext(), toastData, Toast.LENGTH_LONG).show();
         return ret;
+    }
+
+    public void saveFile(String text) {
+        FileOutputStream fos = null;
+
+        String fileName = "qr_history.csv";
+
+        try {
+            fos = openFileOutput(fileName, MODE_PRIVATE);
+            fos.write(text.getBytes());
+            Toast.makeText(this, "Saved to " + getFilesDir() + "/" + fileName,
+                    Toast.LENGTH_LONG).show();
+        } catch (IOException e) {
+            e.printStackTrace();
+        } finally {
+            if (fos != null) {
+                try {
+                    fos.close();
+                } catch (IOException e) {
+                    e.printStackTrace();
+                }
+            }
+        }
+    }
+
+    String loadFile_data;
+
+    public void loadFile() {
+        FileInputStream fis = null;
+        try {
+            fis = openFileInput("qr_history.csv");
+            InputStreamReader isr = new InputStreamReader(fis);
+            BufferedReader br = new BufferedReader(isr);
+            StringBuilder sb = new StringBuilder();
+            String text;
+            while ((text = br.readLine()) != null) {
+                sb.append(text).append("\n");
+            }
+            loadFile_data = sb.toString();
+        } catch (IOException e) {
+            e.printStackTrace();
+        } finally {
+            if (fis != null) {
+                try {
+                    fis.close();
+                } catch (IOException e) {
+                    e.printStackTrace();
+                }
+            }
+        }
+    }
+
+    public void appendFile(String add) {
+        Boolean fileExists = false;
+        FileInputStream fis = null;
+        try {
+            fis = openFileInput("qr_history.csv");
+        } catch (FileNotFoundException e) {
+            e.printStackTrace();
+        } finally {
+            if (fis != null) {
+                fileExists = true;
+                try {
+                    fis.close();
+                } catch (IOException e) {
+                    e.printStackTrace();
+                }
+            }
+        }
+        if (fileExists){
+            loadFile();
+            String x = loadFile_data + add + "\n";
+            saveFile(x);
+        }
+        else if (!fileExists) {
+            saveFile(add);
+        }
     }
 
 }
