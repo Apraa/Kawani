@@ -176,7 +176,7 @@ public class ReadQR extends AppCompatActivity {
         }
     }
 
-    String loadFile_data;
+    private String loadFile_data;
 
     public void loadFile() {
         FileInputStream fis = null;
