@@ -81,7 +81,7 @@
         android:id="@+id/Profile"
         android:layout_width="55dp"
         android:layout_height="55dp"
-        android:layout_marginStart="55dp"
+        android:layout_marginStart="100dp"
         android:backgroundTint="#E4CCBA"
         android:src="@drawable/ic_baseline_person_24"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -93,27 +93,12 @@
         android:id="@+id/Location"
         android:layout_width="55dp"
         android:layout_height="55dp"
-        android:layout_marginStart="55dp"
+        android:layout_marginStart="100dp"
         android:backgroundTint="#E4CCBA"
         android:src="@drawable/ic_baseline_my_location_24"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toEndOf="@+id/Profile"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.991" />
-
-    <ImageButton
-        android:id="@+id/Annoucement"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="55dp"
-        android:layout_marginEnd="20dp"
-        android:backgroundTint="#E4CCBA"
-        android:src="@drawable/ic_baseline_archive_24"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.484"
-        app:layout_constraintStart_toEndOf="@+id/Location"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="1.0" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

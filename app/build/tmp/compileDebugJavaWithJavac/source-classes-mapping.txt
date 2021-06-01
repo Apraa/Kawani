@@ -7,10 +7,10 @@ com/ReadQR.java
  com.ReadQR$2
 com/Authentication.java
  com.Authentication
-com/Register.java
- com.Register
- com.Register$1
- com.Register$1$1
+com/UserProfile.java
+ com.UserProfile
+ com.UserProfile$1
+ com.UserProfile$2
 com/QR_Profile.java
  com.QR_Profile
 com/HistoryQR.java
@@ -34,7 +34,7 @@ com/FirstFragment.java
  com.FirstFragment$1
  com.FirstFragment$1$1
  com.FirstFragment$2
-com/UserProfile.java
- com.UserProfile
- com.UserProfile$1
- com.UserProfile$2
+com/Register.java
+ com.Register
+ com.Register$1
+ com.Register$1$1

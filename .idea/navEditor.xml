@@ -54,6 +54,27 @@
             <LayoutPositions>
               <option name="myPositions">
                 <map>
+                  <entry key="AnnoucementPage">
+                    <value>
+                      <LayoutPositions>
+                        <option name="myPosition">
+                          <Point>
+                            <option name="x" value="268" />
+                            <option name="y" value="392" />
+                          </Point>
+                        </option>
+                        <option name="myPositions">
+                          <map>
+                            <entry key="action_HomePage_to_UserProfile">
+                              <value>
+                                <LayoutPositions />
+                              </value>
+                            </entry>
+                          </map>
+                        </option>
+                      </LayoutPositions>
+                    </value>
+                  </entry>
                   <entry key="FirstFragment">
                     <value>
                       <LayoutPositions>
@@ -80,14 +101,23 @@
                       </LayoutPositions>
                     </value>
                   </entry>
-                  <entry key="HomePage">
+                  <entry key="Home">
                     <value>
                       <LayoutPositions>
                         <option name="myPosition">
                           <Point>
-                            <option name="x" value="268" />
-                            <option name="y" value="392" />
+                            <option name="x" value="12" />
+                            <option name="y" value="12" />
                           </Point>
+                        </option>
+                        <option name="myPositions">
+                          <map>
+                            <entry key="action_UserProfile_to_HomePage">
+                              <value>
+                                <LayoutPositions />
+                              </value>
+                            </entry>
+                          </map>
                         </option>
                       </LayoutPositions>
                     </value>
@@ -139,7 +169,7 @@
                       </LayoutPositions>
                     </value>
                   </entry>
-                  <entry key="User">
+                  <entry key="UserProfile">
                     <value>
                       <LayoutPositions>
                         <option name="myPosition">
@@ -150,7 +180,7 @@
                         </option>
                         <option name="myPositions">
                           <map>
-                            <entry key="action_RegisterPage_to_FirstFragment">
+                            <entry key="action_UserProfile_to_HomePage">
                               <value>
                                 <LayoutPositions />
                               </value>
