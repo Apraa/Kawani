@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\myles\\StudioProjects\\LoginSystem\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-he\\values-he.xml",
+            "outputFile": "C:\\Users\\Dexter\\Desktop\\LoginSystem\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-he\\values-he.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\myles\\.gradle\\caches\\transforms-2\\files-2.1\\f3947d6239c89f831b82f979ff6f4816\\jetified-zxing-android-embedded-3.6.0\\res\\values-he\\values-he.xml",
+                    "source": "C:\\Users\\Dexter\\.gradle\\caches\\transforms-2\\files-2.1\\e9477384766fbe18a6a58ec8cfcec055\\jetified-zxing-android-embedded-3.6.0\\res\\values-he\\values-he.xml",
                     "from": {
                         "startLines": "2,3,4,5",
                         "startColumns": "4,4,4,4",

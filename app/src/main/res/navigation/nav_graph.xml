@@ -13,7 +13,8 @@
 
         <action
             android:id="@+id/action_FirstFragment_to_SecondFragment"
-            app:destination="@id/SecondFragment" />
+            app:destination="@id/SecondFragment"
+            app:enterAnim="@anim/nav_default_enter_anim" />
         <action android:id="@+id/action_FirstFragment_to_RegisterPage"
             app:destination="@id/RegisterPage">
 
@@ -28,6 +29,10 @@
         <action
             android:id="@+id/action_SecondFragment_to_FirstFragment"
             app:destination="@id/FirstFragment" />
+        <action
+            android:id="@+id/secondFragmentToHomePage"
+            app:destination="@id/HomePage"
+            app:enterAnim="@anim/nav_default_enter_anim" />
     </fragment>
     <fragment
         android:id="@+id/RegisterPage"
@@ -38,4 +43,9 @@
             android:id="@+id/action_RegisterPage_to_FirstFragment"
             app:destination="@id/FirstFragment" />
     </fragment>
+    <fragment
+        android:id="@+id/HomePage"
+        android:name="com.HomePage"
+        android:label="Home Page::"
+        tools:layout="@layout/fragment_home_page"/>
 </navigation>
