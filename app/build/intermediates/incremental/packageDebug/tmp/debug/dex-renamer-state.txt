@@ -1,16 +1,10 @@
-#Tue Jun 01 11:52:30 SGT 2021
-path.4=classes2.dex
-path.3=5/classes.dex
-path.2=15/classes.dex
-path.1=0/classes.dex
-path.0=classes.dex
-base.4=C\:\\Users\\USER\\StudioProjects\\LoginSystem\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes2.dex
-base.3=C\:\\Users\\USER\\StudioProjects\\LoginSystem\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\5\\classes.dex
-base.2=C\:\\Users\\USER\\StudioProjects\\LoginSystem\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\15\\classes.dex
-base.1=C\:\\Users\\USER\\StudioProjects\\LoginSystem\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\0\\classes.dex
-base.0=C\:\\Users\\USER\\StudioProjects\\LoginSystem\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes.dex
-renamed.3=classes4.dex
+#Tue Jun 01 14:29:39 SGT 2021
+base.2=C\:\\Users\\USER\\StudioProjects\\LoginSystem\\app\\build\\intermediates\\dex\\debug\\mergeDexDebug\\classes3.dex
+path.2=classes3.dex
+base.1=C\:\\Users\\USER\\StudioProjects\\LoginSystem\\app\\build\\intermediates\\dex\\debug\\mergeDexDebug\\classes2.dex
+path.1=classes2.dex
+base.0=C\:\\Users\\USER\\StudioProjects\\LoginSystem\\app\\build\\intermediates\\dex\\debug\\mergeDexDebug\\classes.dex
 renamed.2=classes3.dex
 renamed.1=classes2.dex
 renamed.0=classes.dex
-renamed.4=classes5.dex
+path.0=classes.dex
