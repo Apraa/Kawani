@@ -35,6 +35,7 @@ public class FirstFragment extends Fragment {
     public EditText Password;
     public FirebaseAuth fAuth;
     public Authentication authen = new Authentication();
+    public String Text = authen.getEmail();
 
 
 
@@ -89,7 +90,7 @@ public class FirstFragment extends Fragment {
 
 
                             Toast.makeText(getActivity(), "Login successful", Toast.LENGTH_SHORT).show();
-                            
+
                             NavHostFragment.findNavController(FirstFragment.this)
                                     .navigate(R.id.SecondFragment);
 

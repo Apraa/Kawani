@@ -10,11 +10,12 @@ com/example/login/BuildConfig.java
  com.example.login.BuildConfig
 com/Authentication.java
  com.Authentication
-com/SecondFragment.java
- com.SecondFragment
- com.SecondFragment$1
 com/FirstFragment.java
  com.FirstFragment
  com.FirstFragment$1
  com.FirstFragment$1$1
  com.FirstFragment$2
+com/SecondFragment.java
+ com.SecondFragment
+ com.SecondFragment$1
+ com.SecondFragment$2
