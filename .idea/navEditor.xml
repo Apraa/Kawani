@@ -54,18 +54,6 @@
             <LayoutPositions>
               <option name="myPositions">
                 <map>
-                  <entry key="">
-                    <value>
-                      <LayoutPositions>
-                        <option name="myPosition">
-                          <Point>
-                            <option name="x" value="503" />
-                            <option name="y" value="-1" />
-                          </Point>
-                        </option>
-                      </LayoutPositions>
-                    </value>
-                  </entry>
                   <entry key="FirstFragment">
                     <value>
                       <LayoutPositions>
@@ -151,6 +139,27 @@
                               </value>
                             </entry>
                             <entry key="secondFragmentToHomePage">
+                              <value>
+                                <LayoutPositions />
+                              </value>
+                            </entry>
+                          </map>
+                        </option>
+                      </LayoutPositions>
+                    </value>
+                  </entry>
+                  <entry key="Us">
+                    <value>
+                      <LayoutPositions>
+                        <option name="myPosition">
+                          <Point>
+                            <option name="x" value="12" />
+                            <option name="y" value="12" />
+                          </Point>
+                        </option>
+                        <option name="myPositions">
+                          <map>
+                            <entry key="action_HomePage_to_QR">
                               <value>
                                 <LayoutPositions />
                               </value>

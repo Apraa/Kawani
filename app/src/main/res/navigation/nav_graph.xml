@@ -46,11 +46,20 @@
     <fragment
         android:id="@+id/HomePage"
         android:name="com.HomePage"
-        android:label="Home Page::"
+        android:label="Home Page:"
         tools:layout="@layout/fragment_home_page">
         <action
             android:id="@+id/action_HomePage_to_QR"
             app:destination="@id/activity_ReadQR_previewView" />
+    </fragment>
+    <fragment
+        android:id="@+id/UserProfile"
+        android:name="com.UserProfile"
+        android:label="User Profile: "
+        tools:layout="@layout/fragment_user_profile">
+        <action
+            android:id="@+id/action_HomePage_to_Profile"
+            app:destination="@id/UserProfile" />
     </fragment>
     <fragment
         android:id="@+id/activity_ReadQR_previewView"

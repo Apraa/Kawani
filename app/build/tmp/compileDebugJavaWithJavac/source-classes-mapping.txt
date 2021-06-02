@@ -1,3 +1,19 @@
+com/example/login/BuildConfig.java
+ com.example.login.BuildConfig
+com/QRCodeFoundListener.java
+ com.QRCodeFoundListener
+com/Accounts.java
+ com.Accounts
+com/Authentication.java
+ com.Authentication
+com/QRCodeImageAnalyzer.java
+ com.QRCodeImageAnalyzer
+com/GPS.java
+ com.GPS
+ com.GPS$1
+ com.GPS$2
+ com.GPS$3
+ com.GPS$4
 com/SecondFragment.java
  com.SecondFragment
  com.SecondFragment$1
@@ -5,35 +21,29 @@ com/ReadQR.java
  com.ReadQR
  com.ReadQR$1
  com.ReadQR$2
-com/Authentication.java
- com.Authentication
-com/QR_Profile.java
- com.QR_Profile
-com/HistoryQR.java
- com.HistoryQR
-com/example/login/BuildConfig.java
- com.example.login.BuildConfig
-com/HomePage.java
- com.HomePage
- com.HomePage$1
- com.HomePage$2
-com/MainActivity.java
- com.MainActivity
-com/QRCodeFoundListener.java
- com.QRCodeFoundListener
+com/UserProfile.java
+ com.UserProfile
+ com.UserProfile$1
+ com.UserProfile$2
 com/QrProfile.java
  com.QrProfile
  com.QrProfile$1
-com/QRCodeImageAnalyzer.java
- com.QRCodeImageAnalyzer
-com/Accounts.java
- com.Accounts
+com/QR_Profile.java
+ com.QR_Profile
 com/FirstFragment.java
  com.FirstFragment
  com.FirstFragment$1
  com.FirstFragment$1$1
  com.FirstFragment$2
+com/HistoryQR.java
+ com.HistoryQR
+com/HomePage.java
+ com.HomePage
+ com.HomePage$1
+ com.HomePage$2
 com/Register.java
  com.Register
  com.Register$1
  com.Register$1$1
+com/MainActivity.java
+ com.MainActivity
