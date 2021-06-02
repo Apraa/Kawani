@@ -1830,7 +1830,6 @@ id Department
 id EmailAddress
 id FUNCTION
 id FirstFragment
-id FullName
 id HRChoice
 id Home
 id HomePage
@@ -1850,13 +1849,10 @@ id SHOW_PATH
 id SHOW_PROGRESS
 id SYM
 id SecondFragment
-id ShowDepartment
-id ShowEmail
 id SubordinateChoice
 id SuperiorChoice
 id TOP_END
 id TOP_START
-id UserProfile
 id accelerate
 id accessibility_action_clickable_span
 id accessibility_custom_action_0
@@ -1894,10 +1890,9 @@ id accessibility_custom_action_9
 id action0
 id action_FirstFragment_to_RegisterPage
 id action_FirstFragment_to_SecondFragment
-id action_HomePage_to_UserProfile
+id action_HomePage_to_QR
 id action_RegisterPage_to_FirstFragment
 id action_SecondFragment_to_FirstFragment
-id action_UserProfile_to_HomePage
 id action_bar
 id action_bar_activity_content
 id action_bar_container
@@ -2211,6 +2206,7 @@ id search_mag_icon
 id search_plate
 id search_src_text
 id search_voice_btn
+id secondFragmentToHomePage
 id select_dialog_listview
 id selected
 id selection_type
@@ -2422,8 +2418,8 @@ layout design_text_input_end_icon
 layout design_text_input_start_icon
 layout fragment_first
 layout fragment_home_page
+layout fragment_qr_profile
 layout fragment_second
-layout fragment_user_profile
 layout material_chip_input_combo
 layout material_clock_display
 layout material_clock_display_divider

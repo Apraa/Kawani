@@ -7,10 +7,6 @@ com/ReadQR.java
  com.ReadQR$2
 com/Authentication.java
  com.Authentication
-com/UserProfile.java
- com.UserProfile
- com.UserProfile$1
- com.UserProfile$2
 com/QR_Profile.java
  com.QR_Profile
 com/HistoryQR.java
@@ -25,6 +21,9 @@ com/MainActivity.java
  com.MainActivity
 com/QRCodeFoundListener.java
  com.QRCodeFoundListener
+com/QrProfile.java
+ com.QrProfile
+ com.QrProfile$1
 com/QRCodeImageAnalyzer.java
  com.QRCodeImageAnalyzer
 com/Accounts.java

@@ -54,23 +54,14 @@
             <LayoutPositions>
               <option name="myPositions">
                 <map>
-                  <entry key="AnnoucementPage">
+                  <entry key="">
                     <value>
                       <LayoutPositions>
                         <option name="myPosition">
                           <Point>
-                            <option name="x" value="268" />
-                            <option name="y" value="392" />
+                            <option name="x" value="503" />
+                            <option name="y" value="-1" />
                           </Point>
-                        </option>
-                        <option name="myPositions">
-                          <map>
-                            <entry key="action_HomePage_to_UserProfile">
-                              <value>
-                                <LayoutPositions />
-                              </value>
-                            </entry>
-                          </map>
                         </option>
                       </LayoutPositions>
                     </value>
@@ -101,18 +92,18 @@
                       </LayoutPositions>
                     </value>
                   </entry>
-                  <entry key="Home">
+                  <entry key="HomePage">
                     <value>
                       <LayoutPositions>
                         <option name="myPosition">
                           <Point>
-                            <option name="x" value="12" />
-                            <option name="y" value="12" />
+                            <option name="x" value="268" />
+                            <option name="y" value="392" />
                           </Point>
                         </option>
                         <option name="myPositions">
                           <map>
-                            <entry key="action_UserProfile_to_HomePage">
+                            <entry key="action_HomePage_to_QR">
                               <value>
                                 <LayoutPositions />
                               </value>
@@ -169,23 +160,14 @@
                       </LayoutPositions>
                     </value>
                   </entry>
-                  <entry key="UserProfile">
+                  <entry key="activity_ReadQR_previewView">
                     <value>
                       <LayoutPositions>
                         <option name="myPosition">
                           <Point>
-                            <option name="x" value="12" />
-                            <option name="y" value="12" />
+                            <option name="x" value="501" />
+                            <option name="y" value="394" />
                           </Point>
-                        </option>
-                        <option name="myPositions">
-                          <map>
-                            <entry key="action_UserProfile_to_HomePage">
-                              <value>
-                                <LayoutPositions />
-                              </value>
-                            </entry>
-                          </map>
                         </option>
                       </LayoutPositions>
                     </value>
