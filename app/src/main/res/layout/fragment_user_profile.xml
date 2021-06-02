@@ -51,6 +51,19 @@
         app:layout_constraintVertical_bias="0.377"
         tools:text="email" />
 
+    <TextView
+        android:id="@+id/showID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/vidaloka"
+        android:textColor="@color/AllColor"
+        android:textSize="25sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:text="email" />
+
     <com.google.android.material.bottomappbar.BottomAppBar
         android:id="@+id/bottomAppBar2"
         style="@style/Widget.MaterialComponents.BottomAppBar.Colored"

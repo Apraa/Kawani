@@ -31,6 +31,7 @@ public class UserProfile extends Fragment{
     TextView FullName;
     TextView ShowDepartment;
     TextView ShowEmail;
+    TextView ShowID;
 
     @Override
     public View onCreateView(
@@ -48,6 +49,8 @@ public class UserProfile extends Fragment{
         FullName = view.findViewById(R.id.FullName);
         ShowDepartment = view.findViewById(R.id.ShowDepartment);
         ShowEmail = view.findViewById(R.id.ShowEmail);
+        ShowID = view.findViewById(R.id.showID);
+
         if (user != null) {
             // Name, email address, and profile photo Url
             email = user.getEmail();
@@ -79,6 +82,7 @@ public class UserProfile extends Fragment{
                 FullName.setText(FirstName +" " + LastName);
                 ShowDepartment.setText(Department);
                 ShowEmail.setText("Email:    " +email);
+                ShowID.setText("ID:     " + IDNumber);
             }
 
             @Override
