@@ -31,7 +31,7 @@ private static int SPALSH_TIME = 2000;
             public void run() {
 
                 NavHostFragment.findNavController(SecondFragment.this)
-                        .navigate(R.id.HomePage);
+                        .navigate(R.id.QrProfile);
             }
         },SPALSH_TIME);
 
