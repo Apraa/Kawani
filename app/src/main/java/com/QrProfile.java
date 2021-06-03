@@ -1,13 +1,11 @@
 package com;
 
-import android.content.Intent;
 import android.os.Bundle;
 
 import androidx.annotation.NonNull;
 import androidx.fragment.app.Fragment;
 import androidx.navigation.fragment.NavHostFragment;
 
-import android.os.Handler;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -45,6 +43,14 @@ public class QrProfile extends Fragment {
             public void onClick(View vl) {
                 NavHostFragment.findNavController(QrProfile.this)
                         .navigate(R.id.UserProfile);
+            }
+        });
+
+        view.findViewById(R.id.RecAttendButton).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View va) {
+                NavHostFragment.findNavController(QrProfile.this)
+                        .navigate(R.id.AttendancePage);
             }
         });
 

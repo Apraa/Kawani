@@ -86,6 +86,12 @@
             app:destination="@id/GenQR"/>
     </fragment>
     <activity
+        android:id="@+id/AttendancePage"
+        android:name="com.RecAttend"
+        android:label="Record attendance"
+        tools:layout="@layout/activity_rec_attend">
+    </activity>
+    <activity
         android:id="@+id/ReaderQR"
         android:name="com.ReadQR"
         android:label="Scan QR"

@@ -7,7 +7,7 @@
     tools:context="com.RecAttend">
 
     <androidx.camera.view.PreviewView
-        android:id="@+id/previewView"
+        android:id="@+id/AttendancePage"
         android:layout_width="match_parent"
         android:layout_height="match_parent" >
 
@@ -22,7 +22,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Save Scanned QR"
-        app:layout_constraintTop_toTopOf="@+id/previewView"
+        app:layout_constraintTop_toTopOf="@+id/AttendancePage"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
 
@@ -31,7 +31,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="QR Code Found"
-        app:layout_constraintBottom_toBottomOf="@+id/previewView"
+        app:layout_constraintBottom_toBottomOf="@+id/AttendancePage"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         />

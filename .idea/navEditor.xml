@@ -54,18 +54,6 @@
             <LayoutPositions>
               <option name="myPositions">
                 <map>
-                  <entry key="Create">
-                    <value>
-                      <LayoutPositions>
-                        <option name="myPosition">
-                          <Point>
-                            <option name="x" value="1134" />
-                            <option name="y" value="-125" />
-                          </Point>
-                        </option>
-                      </LayoutPositions>
-                    </value>
-                  </entry>
                   <entry key="FirstFragment">
                     <value>
                       <LayoutPositions>
@@ -88,6 +76,18 @@
                               </value>
                             </entry>
                           </map>
+                        </option>
+                      </LayoutPositions>
+                    </value>
+                  </entry>
+                  <entry key="GenQR">
+                    <value>
+                      <LayoutPositions>
+                        <option name="myPosition">
+                          <Point>
+                            <option name="x" value="12" />
+                            <option name="y" value="12" />
+                          </Point>
                         </option>
                       </LayoutPositions>
                     </value>
@@ -148,12 +148,17 @@
                         </option>
                         <option name="myPositions">
                           <map>
-                            <entry key="action_Create">
+                            <entry key="Home_to_Profile">
                               <value>
                                 <LayoutPositions />
                               </value>
                             </entry>
                             <entry key="action_GPS">
+                              <value>
+                                <LayoutPositions />
+                              </value>
+                            </entry>
+                            <entry key="action_Gen">
                               <value>
                                 <LayoutPositions />
                               </value>
@@ -178,13 +183,25 @@
                       </LayoutPositions>
                     </value>
                   </entry>
+                  <entry key="R">
+                    <value>
+                      <LayoutPositions>
+                        <option name="myPosition">
+                          <Point>
+                            <option name="x" value="12" />
+                            <option name="y" value="12" />
+                          </Point>
+                        </option>
+                      </LayoutPositions>
+                    </value>
+                  </entry>
                   <entry key="ReaderQR">
                     <value>
                       <LayoutPositions>
                         <option name="myPosition">
                           <Point>
-                            <option name="x" value="820" />
-                            <option name="y" value="-152" />
+                            <option name="x" value="12" />
+                            <option name="y" value="12" />
                           </Point>
                         </option>
                       </LayoutPositions>
@@ -248,7 +265,7 @@
                         </option>
                         <option name="myPositions">
                           <map>
-                            <entry key="action_HomePage_to_Profile">
+                            <entry key="action_HomePage_to_QR">
                               <value>
                                 <LayoutPositions />
                               </value>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">478461138073-4feqne30pqqad98u1rhjhfksvulp2a1s.apps.googleusercontent.com</string>
+    <string name="firebase_database_url" translatable="false">https://kawani-75d12-default-rtdb.asia-southeast1.firebasedatabase.app</string>
+    <string name="gcm_defaultSenderId" translatable="false">478461138073</string>
+    <string name="google_api_key" translatable="false">AIzaSyA6PMay6AX5ReCLA8376yNgzkxEph2_Tb4</string>
+    <string name="google_app_id" translatable="false">1:478461138073:android:93b6914636a4f84fb9d408</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyA6PMay6AX5ReCLA8376yNgzkxEph2_Tb4</string>
+    <string name="google_storage_bucket" translatable="false">kawani-75d12.appspot.com</string>
+    <string name="project_id" translatable="false">kawani-75d12</string>
+</resources>

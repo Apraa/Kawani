@@ -53,7 +53,7 @@ public class RecAttend extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_rec_attend);
 
-        previewView = findViewById(R.id.previewView);
+        previewView = findViewById(R.id.AttendancePage);
 
         qrCodeFoundButton = findViewById(R.id.activity_ReadQR_qrCodeFoundButton);
         qrCodeFoundButton.setVisibility(View.INVISIBLE);
