@@ -39,6 +39,14 @@ public class QrProfile extends Fragment {
                         .navigate(R.id.HomePage);
             }
         });
+        
+         view.findViewById(R.id.Profile).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                NavHostFragment.findNavController(UserProfile.this)
+                        .navigate(R.id.UserProfile);
+            }
+        });
 
         view.findViewById(R.id.ReaderQR).setOnClickListener(new View.OnClickListener() {
             @Override
