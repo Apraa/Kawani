@@ -49,7 +49,7 @@ public class ReadQR extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.fragment_scan_qr);
+        setContentView(R.layout.activity_read_qr);
 
         previewView = findViewById(R.id.activity_ReadQR_previewView);
 
