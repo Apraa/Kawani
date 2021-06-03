@@ -103,7 +103,7 @@
     <activity
         android:id="@+id/GenQR"
         android:name="com.CreateQR"
-        android:label="GenerateQR"
+        android:label="Generate QR Code"
         tools:layout="@layout/activity_create_qr">
     </activity>
 
