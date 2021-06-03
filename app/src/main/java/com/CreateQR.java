@@ -70,6 +70,9 @@ public class CreateQR extends AppCompatActivity {
                 idNum = dataSnapshot.getKey();
                 fName = dataSnapshot.child("FirstName").getValue(String.class);
                 lName = dataSnapshot.child("LastName").getValue(String.class);
+                QR_contents = fName + "," + lName + "," + idNum;
+                imageView = (ImageView)findViewById(R.id.imageview);
+                run();
             }
 
             @Override
@@ -92,13 +95,5 @@ public class CreateQR extends AppCompatActivity {
 
             }
         });
-/*
-        fName = "Myles Earvin";
-        lName = "Uy";
-        idNum = "11806303";
-*/
-        QR_contents = fName + "," + lName + "," + idNum;
-        imageView = (ImageView)findViewById(R.id.imageview);
-        run();
     }
 }
