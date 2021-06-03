@@ -80,6 +80,18 @@
                       </LayoutPositions>
                     </value>
                   </entry>
+                  <entry key="GpsQ">
+                    <value>
+                      <LayoutPositions>
+                        <option name="myPosition">
+                          <Point>
+                            <option name="x" value="619" />
+                            <option name="y" value="-526" />
+                          </Point>
+                        </option>
+                      </LayoutPositions>
+                    </value>
+                  </entry>
                   <entry key="HomePage">
                     <value>
                       <LayoutPositions>
@@ -101,6 +113,18 @@
                       </LayoutPositions>
                     </value>
                   </entry>
+                  <entry key="QRHistory">
+                    <value>
+                      <LayoutPositions>
+                        <option name="myPosition">
+                          <Point>
+                            <option name="x" value="1028" />
+                            <option name="y" value="-327" />
+                          </Point>
+                        </option>
+                      </LayoutPositions>
+                    </value>
+                  </entry>
                   <entry key="QrProfile">
                     <value>
                       <LayoutPositions>
@@ -112,6 +136,16 @@
                         </option>
                         <option name="myPositions">
                           <map>
+                            <entry key="action_GPS">
+                              <value>
+                                <LayoutPositions />
+                              </value>
+                            </entry>
+                            <entry key="action_History">
+                              <value>
+                                <LayoutPositions />
+                              </value>
+                            </entry>
                             <entry key="action_HomePage_to_Location">
                               <value>
                                 <LayoutPositions />
@@ -127,13 +161,13 @@
                       </LayoutPositions>
                     </value>
                   </entry>
-                  <entry key="ReadQR">
+                  <entry key="ReaderQR">
                     <value>
                       <LayoutPositions>
                         <option name="myPosition">
                           <Point>
-                            <option name="x" value="707" />
-                            <option name="y" value="-133" />
+                            <option name="x" value="820" />
+                            <option name="y" value="-152" />
                           </Point>
                         </option>
                       </LayoutPositions>

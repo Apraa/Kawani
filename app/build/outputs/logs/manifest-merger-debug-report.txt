@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\USER\StudioProjects\LoginSystem\app\src\main\AndroidManifest.xml:2:1-42:12
-INJECTED from C:\Users\USER\StudioProjects\LoginSystem\app\src\main\AndroidManifest.xml:2:1-42:12
-INJECTED from C:\Users\USER\StudioProjects\LoginSystem\app\src\main\AndroidManifest.xml:2:1-42:12
-INJECTED from C:\Users\USER\StudioProjects\LoginSystem\app\src\main\AndroidManifest.xml:2:1-42:12
+ADDED from C:\Users\USER\StudioProjects\LoginSystem\app\src\main\AndroidManifest.xml:2:1-39:12
+INJECTED from C:\Users\USER\StudioProjects\LoginSystem\app\src\main\AndroidManifest.xml:2:1-39:12
+INJECTED from C:\Users\USER\StudioProjects\LoginSystem\app\src\main\AndroidManifest.xml:2:1-39:12
+INJECTED from C:\Users\USER\StudioProjects\LoginSystem\app\src\main\AndroidManifest.xml:2:1-39:12
 MERGED from [com.google.firebase:firebase-analytics:19.0.0] C:\Users\USER\.gradle\caches\transforms-2\files-2.1\8362ce04cac27b518d78decb4d872376\jetified-firebase-analytics-19.0.0\AndroidManifest.xml:2:1-9:12
 MERGED from [com.onesignal:OneSignal:4.4.0] C:\Users\USER\.gradle\caches\transforms-2\files-2.1\a5b1b6a8aa2e3506e561d9b1b5071623\jetified-OneSignal-4.4.0\AndroidManifest.xml:2:1-118:12
 MERGED from [androidx.multidex:multidex:2.0.1] C:\Users\USER\.gradle\caches\transforms-2\files-2.1\ed34b7e8c5ec1ff91aa8f7bea930919e\multidex-2.0.1\AndroidManifest.xml:17:1-22:12
@@ -98,20 +98,20 @@ MERGED from [androidx.print:print:1.0.0] C:\Users\USER\.gradle\caches\transforms
 MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\USER\.gradle\caches\transforms-2\files-2.1\6c6a0677fef992cda0c5a0c606dd2c88\interpolator-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.exifinterface:exifinterface:1.0.0] C:\Users\USER\.gradle\caches\transforms-2\files-2.1\d8dc488eb7bd316a6a4b79b2630b3ebd\exifinterface-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.annotation:annotation-experimental:1.1.0-rc01] C:\Users\USER\.gradle\caches\transforms-2\files-2.1\f4beb7ef2068385fac45a100d91ac9fb\jetified-annotation-experimental-1.1.0-rc01\AndroidManifest.xml:17:1-24:12
-INJECTED from C:\Users\USER\StudioProjects\LoginSystem\app\src\main\AndroidManifest.xml:2:1-42:12
-INJECTED from C:\Users\USER\StudioProjects\LoginSystem\app\src\main\AndroidManifest.xml:2:1-42:12
-INJECTED from C:\Users\USER\StudioProjects\LoginSystem\app\src\main\AndroidManifest.xml:2:1-42:12
+INJECTED from C:\Users\USER\StudioProjects\LoginSystem\app\src\main\AndroidManifest.xml:2:1-39:12
+INJECTED from C:\Users\USER\StudioProjects\LoginSystem\app\src\main\AndroidManifest.xml:2:1-39:12
+INJECTED from C:\Users\USER\StudioProjects\LoginSystem\app\src\main\AndroidManifest.xml:2:1-39:12
 	package
 		ADDED from C:\Users\USER\StudioProjects\LoginSystem\app\src\main\AndroidManifest.xml:3:5-32
 		INJECTED from C:\Users\USER\StudioProjects\LoginSystem\app\src\main\AndroidManifest.xml
 		INJECTED from C:\Users\USER\StudioProjects\LoginSystem\app\src\main\AndroidManifest.xml
 	android:versionName
 		INJECTED from C:\Users\USER\StudioProjects\LoginSystem\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\USER\StudioProjects\LoginSystem\app\src\main\AndroidManifest.xml:2:1-42:12
+		ADDED from C:\Users\USER\StudioProjects\LoginSystem\app\src\main\AndroidManifest.xml:2:1-39:12
 		INJECTED from C:\Users\USER\StudioProjects\LoginSystem\app\src\main\AndroidManifest.xml
 	android:versionCode
 		INJECTED from C:\Users\USER\StudioProjects\LoginSystem\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\USER\StudioProjects\LoginSystem\app\src\main\AndroidManifest.xml:2:1-42:12
+		ADDED from C:\Users\USER\StudioProjects\LoginSystem\app\src\main\AndroidManifest.xml:2:1-39:12
 		INJECTED from C:\Users\USER\StudioProjects\LoginSystem\app\src\main\AndroidManifest.xml
 	xmlns:android
 		ADDED from C:\Users\USER\StudioProjects\LoginSystem\app\src\main\AndroidManifest.xml:2:11-69
@@ -186,7 +186,7 @@ ADDED from C:\Users\USER\StudioProjects\LoginSystem\app\src\main\AndroidManifest
 	android:name
 		ADDED from C:\Users\USER\StudioProjects\LoginSystem\app\src\main\AndroidManifest.xml:10:22-59
 application
-ADDED from C:\Users\USER\StudioProjects\LoginSystem\app\src\main\AndroidManifest.xml:12:5-40:19
+ADDED from C:\Users\USER\StudioProjects\LoginSystem\app\src\main\AndroidManifest.xml:12:5-37:19
 MERGED from [com.google.firebase:firebase-analytics:19.0.0] C:\Users\USER\.gradle\caches\transforms-2\files-2.1\8362ce04cac27b518d78decb4d872376\jetified-firebase-analytics-19.0.0\AndroidManifest.xml:7:5-20
 MERGED from [com.google.firebase:firebase-analytics:19.0.0] C:\Users\USER\.gradle\caches\transforms-2\files-2.1\8362ce04cac27b518d78decb4d872376\jetified-firebase-analytics-19.0.0\AndroidManifest.xml:7:5-20
 MERGED from [com.onesignal:OneSignal:4.4.0] C:\Users\USER\.gradle\caches\transforms-2\files-2.1\a5b1b6a8aa2e3506e561d9b1b5071623\jetified-OneSignal-4.4.0\AndroidManifest.xml:48:5-116:19
@@ -272,7 +272,7 @@ MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\US
 	android:theme
 		ADDED from C:\Users\USER\StudioProjects\LoginSystem\app\src\main\AndroidManifest.xml:18:9-43
 activity#com.GPS
-ADDED from C:\Users\USER\StudioProjects\LoginSystem\app\src\main\AndroidManifest.xml:19:9-53
+ADDED from C:\Users\USER\StudioProjects\LoginSystem\app\src\main\AndroidManifest.xml:19:9-43
 	android:name
 		ADDED from C:\Users\USER\StudioProjects\LoginSystem\app\src\main\AndroidManifest.xml:19:19-41
 activity#com.Register
@@ -280,7 +280,7 @@ ADDED from C:\Users\USER\StudioProjects\LoginSystem\app\src\main\AndroidManifest
 	android:name
 		ADDED from C:\Users\USER\StudioProjects\LoginSystem\app\src\main\AndroidManifest.xml:20:19-46
 activity#com.MainActivity
-ADDED from C:\Users\USER\StudioProjects\LoginSystem\app\src\main\AndroidManifest.xml:21:9-30:20
+ADDED from C:\Users\USER\StudioProjects\LoginSystem\app\src\main\AndroidManifest.xml:21:9-29:20
 	android:label
 		ADDED from C:\Users\USER\StudioProjects\LoginSystem\app\src\main\AndroidManifest.xml:23:13-45
 	android:theme
@@ -288,33 +288,33 @@ ADDED from C:\Users\USER\StudioProjects\LoginSystem\app\src\main\AndroidManifest
 	android:name
 		ADDED from C:\Users\USER\StudioProjects\LoginSystem\app\src\main\AndroidManifest.xml:22:13-44
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from C:\Users\USER\StudioProjects\LoginSystem\app\src\main\AndroidManifest.xml:25:13-29:29
+ADDED from C:\Users\USER\StudioProjects\LoginSystem\app\src\main\AndroidManifest.xml:25:13-28:29
 action#android.intent.action.MAIN
 ADDED from C:\Users\USER\StudioProjects\LoginSystem\app\src\main\AndroidManifest.xml:26:17-69
 	android:name
 		ADDED from C:\Users\USER\StudioProjects\LoginSystem\app\src\main\AndroidManifest.xml:26:25-66
 category#android.intent.category.LAUNCHER
-ADDED from C:\Users\USER\StudioProjects\LoginSystem\app\src\main\AndroidManifest.xml:28:17-77
+ADDED from C:\Users\USER\StudioProjects\LoginSystem\app\src\main\AndroidManifest.xml:27:17-77
 	android:name
-		ADDED from C:\Users\USER\StudioProjects\LoginSystem\app\src\main\AndroidManifest.xml:28:27-74
+		ADDED from C:\Users\USER\StudioProjects\LoginSystem\app\src\main\AndroidManifest.xml:27:27-74
 activity#com.ReadQR
-ADDED from C:\Users\USER\StudioProjects\LoginSystem\app\src\main\AndroidManifest.xml:31:9-33:20
+ADDED from C:\Users\USER\StudioProjects\LoginSystem\app\src\main\AndroidManifest.xml:30:9-46
 	android:name
-		ADDED from C:\Users\USER\StudioProjects\LoginSystem\app\src\main\AndroidManifest.xml:31:19-44
+		ADDED from C:\Users\USER\StudioProjects\LoginSystem\app\src\main\AndroidManifest.xml:30:19-44
 meta-data#com.google.android.gms.version
-ADDED from C:\Users\USER\StudioProjects\LoginSystem\app\src\main\AndroidManifest.xml:34:9-36:69
+ADDED from C:\Users\USER\StudioProjects\LoginSystem\app\src\main\AndroidManifest.xml:31:9-33:69
 MERGED from [com.google.android.gms:play-services-basement:17.5.0] C:\Users\USER\.gradle\caches\transforms-2\files-2.1\250f10211357b86a190625dd842a9bb0\jetified-play-services-basement-17.5.0\AndroidManifest.xml:23:9-25:69
 MERGED from [com.google.android.gms:play-services-basement:17.5.0] C:\Users\USER\.gradle\caches\transforms-2\files-2.1\250f10211357b86a190625dd842a9bb0\jetified-play-services-basement-17.5.0\AndroidManifest.xml:23:9-25:69
 	android:value
-		ADDED from C:\Users\USER\StudioProjects\LoginSystem\app\src\main\AndroidManifest.xml:36:13-66
+		ADDED from C:\Users\USER\StudioProjects\LoginSystem\app\src\main\AndroidManifest.xml:33:13-66
 	android:name
-		ADDED from C:\Users\USER\StudioProjects\LoginSystem\app\src\main\AndroidManifest.xml:35:13-58
+		ADDED from C:\Users\USER\StudioProjects\LoginSystem\app\src\main\AndroidManifest.xml:32:13-58
 meta-data#preloaded_fonts
-ADDED from C:\Users\USER\StudioProjects\LoginSystem\app\src\main\AndroidManifest.xml:37:9-39:57
+ADDED from C:\Users\USER\StudioProjects\LoginSystem\app\src\main\AndroidManifest.xml:34:9-36:57
 	android:resource
-		ADDED from C:\Users\USER\StudioProjects\LoginSystem\app\src\main\AndroidManifest.xml:39:13-54
+		ADDED from C:\Users\USER\StudioProjects\LoginSystem\app\src\main\AndroidManifest.xml:36:13-54
 	android:name
-		ADDED from C:\Users\USER\StudioProjects\LoginSystem\app\src\main\AndroidManifest.xml:38:13-43
+		ADDED from C:\Users\USER\StudioProjects\LoginSystem\app\src\main\AndroidManifest.xml:35:13-43
 uses-sdk
 INJECTED from C:\Users\USER\StudioProjects\LoginSystem\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from C:\Users\USER\StudioProjects\LoginSystem\app\src\main\AndroidManifest.xml

@@ -35,6 +35,9 @@ com/QRCodeFoundListener.java
 com/QrProfile.java
  com.QrProfile
  com.QrProfile$1
+ com.QrProfile$2
+ com.QrProfile$3
+ com.QrProfile$4
 com/QRCodeImageAnalyzer.java
  com.QRCodeImageAnalyzer
 com/Accounts.java

@@ -34,9 +34,33 @@ public class QrProfile extends Fragment {
 
         view.findViewById(R.id.Home).setOnClickListener(new View.OnClickListener() {
             @Override
-            public void onClick(View vl) {
+            public void onClick(View v) {
                 NavHostFragment.findNavController(QrProfile.this)
                         .navigate(R.id.HomePage);
+            }
+        });
+
+        view.findViewById(R.id.ReaderQR).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View vl) {
+                NavHostFragment.findNavController(QrProfile.this)
+                        .navigate(R.id.action_ScanQR);
+            }
+        });
+
+        view.findViewById(R.id.QRHistory).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View vv) {
+                NavHostFragment.findNavController(QrProfile.this)
+                        .navigate(R.id.action_History);
+            }
+        });
+
+        view.findViewById(R.id.GpsQ).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View vb) {
+                NavHostFragment.findNavController(QrProfile.this)
+                        .navigate(R.id.action_GPS);
             }
         });
     }

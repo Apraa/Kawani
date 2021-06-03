@@ -22,7 +22,7 @@
         app:layout_constraintVertical_bias="0.268" />
 
     <Button
-        android:id="@+id/btn"
+        android:id="@+id/ReaderQR"
         android:layout_width="150dp"
         android:layout_height="50dp"
         android:backgroundTint="#EDB183"
@@ -35,7 +35,7 @@
         app:layout_constraintVertical_bias="0.368" />
 
     <Button
-        android:id="@+id/gpbtn"
+        android:id="@+id/GpsQ"
         android:layout_width="75dp"
         android:layout_height="50dp"
         android:backgroundTint="#EDB183"
@@ -60,7 +60,7 @@
         app:layout_constraintVertical_bias="0.462" />
 
     <Button
-        android:id="@+id/qbtn"
+        android:id="@+id/QRHistory"
         android:layout_width="150dp"
         android:layout_height="50dp"
         android:backgroundTint="#EDB183"

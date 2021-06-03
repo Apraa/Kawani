@@ -69,11 +69,33 @@
         <action
             android:id="@+id/action_HomePage_to_Location"
             app:destination="@id/QrProfile" />
+        <action
+            android:id="@+id/action_History"
+            app:destination="@id/QRHistory"/>
+        <action
+            android:id="@+id/action_ScanQR"
+            app:destination="@id/ReaderQR"/>
+        <action
+            android:id="@+id/action_GPS"
+            app:destination="@id/GpsQ"/>
     </fragment>
     <activity
         android:id="@+id/ReaderQR"
         android:name="com.ReadQR"
         android:label="Scan QR"
-        tools:layout="@layout/fragment_scan_qr">
+        tools:layout="@layout/activity_read_qr">
     </activity>
+    <activity
+        android:id="@+id/QRHistory"
+        android:name="com.HistoryQR"
+        android:label="QR History"
+        tools:layout="@layout/activity_history_qr">
+    </activity>
+    <activity
+        android:id="@+id/GpsQ"
+        android:name="com.GPS"
+        android:label="GPS"
+        tools:layout="@layout/activity_gps">
+    </activity>
+
 </navigation>

@@ -1830,6 +1830,7 @@ id EmailAddress
 id FUNCTION
 id FirstFragment
 id FullName
+id GpsQ
 id HRChoice
 id Home
 id HomePage
@@ -1841,6 +1842,7 @@ id OfficerChoice
 id Password
 id Position
 id Profile
+id QRHistory
 id QrProfile
 id ReaderQR
 id RegisterBtn
@@ -1895,10 +1897,13 @@ id accessibility_custom_action_9
 id action0
 id action_FirstFragment_to_RegisterPage
 id action_FirstFragment_to_SecondFragment
+id action_GPS
+id action_History
 id action_HomePage_to_Location
 id action_HomePage_to_Profile
 id action_HomePage_to_QR
 id action_RegisterPage_to_FirstFragment
+id action_ScanQR
 id action_SecondFragment_to_FirstFragment
 id action_bar
 id action_bar_activity_content
@@ -1951,7 +1956,6 @@ id browser_actions_menu_item_icon
 id browser_actions_menu_item_text
 id browser_actions_menu_items
 id browser_actions_menu_view
-id btn
 id buttonPanel
 id cache_measures
 id cancel_action
@@ -2052,7 +2056,6 @@ id gbtn
 id ghost_view
 id ghost_view_holder
 id gone
-id gpbtn
 id graph
 id graph_wrap
 id group_divider
@@ -2184,7 +2187,6 @@ id position
 id postLayout
 id progress_circular
 id progress_horizontal
-id qbtn
 id radio
 id ratio
 id rectangles
@@ -2451,6 +2453,7 @@ layout fragment_qr_profile
 layout fragment_scan_qr
 layout fragment_second
 layout fragment_user_profile
+layout main_bg
 layout material_chip_input_combo
 layout material_clock_display
 layout material_clock_display_divider
