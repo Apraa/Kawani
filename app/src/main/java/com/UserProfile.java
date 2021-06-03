@@ -114,6 +114,13 @@ public class UserProfile extends Fragment{
                         .navigate(R.id.HomePage);
             }
         });
+               view.findViewById(R.id.Location).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                NavHostFragment.findNavController(UserProfile.this)
+                        .navigate(R.id.QrProfile);
+            }
+        });
 
     }
 }
