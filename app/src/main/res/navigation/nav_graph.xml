@@ -78,6 +78,9 @@
         <action
             android:id="@+id/action_GPS"
             app:destination="@id/GpsQ"/>
+        <action
+            android:id="@+id/action_Create"
+            app:destination="@id/Create"/>
     </fragment>
     <activity
         android:id="@+id/ReaderQR"
@@ -98,7 +101,7 @@
         tools:layout="@layout/activity_gps">
     </activity>
     <activity
-        android:id="@+id/CreateQR"
+        android:id="@+id/Create"
         android:name="com.CreateQR"
         android:label="Generate QR Code"
         tools:layout="@layout/activity_create_qr">

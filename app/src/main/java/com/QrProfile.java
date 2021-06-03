@@ -64,11 +64,11 @@ public class QrProfile extends Fragment {
             }
         });
 
-        view.findViewById(R.id.gbtn).setOnClickListener(new View.OnClickListener() {
+        view.findViewById(R.id.Create).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View vb) {
                 NavHostFragment.findNavController(QrProfile.this)
-                        .navigate(R.id.CreateQR);
+                        .navigate(R.id.action_Create);
             }
         });
     }
