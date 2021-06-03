@@ -54,13 +54,13 @@
             <LayoutPositions>
               <option name="myPositions">
                 <map>
-                  <entry key="CreateQR">
+                  <entry key="Create">
                     <value>
                       <LayoutPositions>
                         <option name="myPosition">
                           <Point>
-                            <option name="x" value="178" />
-                            <option name="y" value="-560" />
+                            <option name="x" value="1134" />
+                            <option name="y" value="-125" />
                           </Point>
                         </option>
                       </LayoutPositions>
@@ -148,6 +148,11 @@
                         </option>
                         <option name="myPositions">
                           <map>
+                            <entry key="action_Create">
+                              <value>
+                                <LayoutPositions />
+                              </value>
+                            </entry>
                             <entry key="action_GPS">
                               <value>
                                 <LayoutPositions />

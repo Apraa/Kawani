@@ -16,7 +16,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Login">
-        <activity android:name="com.CreateQR"></activity>
+        <activity android:name="com.CreateQR"/>
         <activity android:name="com.GPS" />
         <activity android:name="com.Register" />
         <activity
