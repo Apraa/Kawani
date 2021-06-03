@@ -111,14 +111,21 @@ public class UserProfile extends Fragment{
             @Override
             public void onClick(View view) {
                 NavHostFragment.findNavController(UserProfile.this)
-                        .navigate(R.id.HomePage);
+                        .navigate(R.id.QrProfile);
             }
         });
-               view.findViewById(R.id.Location).setOnClickListener(new View.OnClickListener() {
+        view.findViewById(R.id.genQR2).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View vc) {
+                NavHostFragment.findNavController(UserProfile.this)
+                        .navigate(R.id.GenQR);
+            }
+        });
+        view.findViewById(R.id.Location).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 NavHostFragment.findNavController(UserProfile.this)
-                        .navigate(R.id.QrProfile);
+                        .navigate(R.id.GpsQ);
             }
         });
 

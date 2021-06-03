@@ -32,17 +32,17 @@ public class QrProfile extends Fragment {
 
         super.onViewCreated(view, savedInstanceState);
 
-        view.findViewById(R.id.Home).setOnClickListener(new View.OnClickListener() {
+        view.findViewById(R.id.Location).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 NavHostFragment.findNavController(QrProfile.this)
-                        .navigate(R.id.HomePage);
+                        .navigate(R.id.GpsQ);
             }
         });
-        
-         view.findViewById(R.id.Profile).setOnClickListener(new View.OnClickListener() {
+
+        view.findViewById(R.id.Profile).setOnClickListener(new View.OnClickListener() {
             @Override
-            public void onClick(View view) {
+            public void onClick(View vl) {
                 NavHostFragment.findNavController(QrProfile.this)
                         .navigate(R.id.UserProfile);
             }
@@ -50,7 +50,7 @@ public class QrProfile extends Fragment {
 
         view.findViewById(R.id.ReaderQR).setOnClickListener(new View.OnClickListener() {
             @Override
-            public void onClick(View vl) {
+            public void onClick(View va) {
                 NavHostFragment.findNavController(QrProfile.this)
                         .navigate(R.id.action_ScanQR);
             }
