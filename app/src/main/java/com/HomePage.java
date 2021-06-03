@@ -96,13 +96,19 @@ public class HomePage extends Fragment{
             }
         });
 
-
-
         view.findViewById(R.id.Profile).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 NavHostFragment.findNavController(HomePage.this)
                         .navigate(R.id.UserProfile);
+            }
+        });
+
+        view.findViewById(R.id.Location).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View vl) {
+                NavHostFragment.findNavController(HomePage.this)
+                        .navigate(R.id.QrProfile);
             }
         });
 

@@ -17,8 +17,6 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Login">
         <activity android:name="com.GPS"></activity>
-        <activity android:name="com.ReadQR" />
-        <activity android:name="com.QR_Profile" />
         <activity android:name="com.Register" />
         <activity
             android:name="com.MainActivity"
@@ -30,7 +28,9 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name="com.ReadQR">
 
+        </activity>
         <meta-data
             android:name="com.google.android.gms.version"
             android:value="@integer/google_play_services_version" />

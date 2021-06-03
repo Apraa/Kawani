@@ -17,9 +17,7 @@ import com.example.login.R;
 
 public class QrProfile extends Fragment {
 
-    public Button button;
-
-    private static int SPALSH_TIME = 2000;
+    private Button button;
 
     @Override
     public View onCreateView(
@@ -31,15 +29,15 @@ public class QrProfile extends Fragment {
     }
 
     public void onViewCreated(@NonNull View view, Bundle savedInstanceState) {
+
         super.onViewCreated(view, savedInstanceState);
-        new Handler().postDelayed(new Runnable() {
+
+        view.findViewById(R.id.Home).setOnClickListener(new View.OnClickListener() {
             @Override
-            public void run() {
-
+            public void onClick(View vl) {
                 NavHostFragment.findNavController(QrProfile.this)
-                        .navigate(R.id.SecondFragment);
+                        .navigate(R.id.HomePage);
             }
-        },SPALSH_TIME);
-
+        });
     }
 }

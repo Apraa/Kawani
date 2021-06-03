@@ -6,20 +6,20 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#3A2E39"
-    tools:context="com.QR_Profile">
+    tools:context="com.QrProfile">
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:fontFamily="@font/vidaloka"
-        android:text="Profile QR Code"
+        android:text="Select action to do:"
         android:textColor="#E4CCBA"
-        android:textSize="48dp"
+        android:textSize="28dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.397" />
+        app:layout_constraintVertical_bias="0.268" />
 
     <Button
         android:id="@+id/btn"
@@ -32,7 +32,45 @@
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.522" />
+        app:layout_constraintVertical_bias="0.368" />
+
+    <Button
+        android:id="@+id/gpbtn"
+        android:layout_width="75dp"
+        android:layout_height="50dp"
+        android:backgroundTint="#EDB183"
+        android:text="GPS"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.64" />
+
+    <Button
+        android:id="@+id/gbtn"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:backgroundTint="#EDB183"
+        android:text="Generate QR Code"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.462" />
+
+    <Button
+        android:id="@+id/qbtn"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:backgroundTint="#EDB183"
+        android:text="QR History"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.552" />
 
     <com.google.android.material.bottomappbar.BottomAppBar
         android:id="@+id/bottomAppBar2"
@@ -64,7 +102,7 @@
         android:id="@+id/Profile"
         android:layout_width="55dp"
         android:layout_height="55dp"
-        android:layout_marginStart="55dp"
+        android:layout_marginStart="100dp"
         android:backgroundTint="#E4CCBA"
         android:src="@drawable/ic_baseline_person_24"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -76,27 +114,12 @@
         android:id="@+id/Location"
         android:layout_width="55dp"
         android:layout_height="55dp"
-        android:layout_marginStart="55dp"
+        android:layout_marginStart="100dp"
         android:backgroundTint="#E4CCBA"
         android:src="@drawable/ic_baseline_my_location_24"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toEndOf="@+id/Profile"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.991" />
-
-    <ImageButton
-        android:id="@+id/Annoucement"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="55dp"
-        android:layout_marginEnd="20dp"
-        android:backgroundTint="#E4CCBA"
-        android:src="@drawable/ic_baseline_archive_24"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.484"
-        app:layout_constraintStart_toEndOf="@+id/Location"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="1.0" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

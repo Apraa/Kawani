@@ -112,7 +112,6 @@ public class UserProfile extends Fragment{
             public void onClick(View view) {
                 NavHostFragment.findNavController(UserProfile.this)
                         .navigate(R.id.HomePage);
-
             }
         });
 

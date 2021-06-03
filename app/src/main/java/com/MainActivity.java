@@ -1,5 +1,6 @@
 package com;
 
+import android.content.Intent;
 import android.os.Bundle;
 
 import com.example.login.R;
@@ -15,10 +16,13 @@ import android.view.View;
 
 import android.view.Menu;
 import android.view.MenuItem;
+import android.widget.Button;
 
 import com.onesignal.OneSignal;
 
 public class MainActivity extends AppCompatActivity {
+
+    public Button button;
 
     private static final String ONESIGNAL_APP_ID = "08c3d5b7-f3a5-4406-b394-d3da6db079ae";
 
@@ -34,6 +38,7 @@ public class MainActivity extends AppCompatActivity {
         OneSignal.setAppId(ONESIGNAL_APP_ID);
 
         setContentView(R.layout.activity_main);
+
     }
 
     @Override
@@ -57,4 +62,5 @@ public class MainActivity extends AppCompatActivity {
 
         return super.onOptionsItemSelected(item);
     }
+
 }

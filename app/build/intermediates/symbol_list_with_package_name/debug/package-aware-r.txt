@@ -1821,7 +1821,6 @@ id AddFirstName
 id AddIDNumber
 id AddLastName
 id AddPassword
-id Annoucement
 id BOTTOM_END
 id BOTTOM_START
 id BackToLogin
@@ -1842,6 +1841,8 @@ id OfficerChoice
 id Password
 id Position
 id Profile
+id QrProfile
+id ReaderQR
 id RegisterBtn
 id RegisterPage
 id SHIFT
@@ -1894,6 +1895,7 @@ id accessibility_custom_action_9
 id action0
 id action_FirstFragment_to_RegisterPage
 id action_FirstFragment_to_SecondFragment
+id action_HomePage_to_Location
 id action_HomePage_to_Profile
 id action_HomePage_to_QR
 id action_RegisterPage_to_FirstFragment
@@ -1942,7 +1944,6 @@ id beginOnFirstDraw
 id beginning
 id blocking
 id bottom
-id bottomAppBar
 id bottomAppBar2
 id bounce
 id browser_actions_header_text
@@ -2047,9 +2048,11 @@ id floating
 id forever
 id fragment_container_view_tag
 id front
+id gbtn
 id ghost_view
 id ghost_view_holder
 id gone
+id gpbtn
 id graph
 id graph_wrap
 id group_divider
@@ -2181,6 +2184,7 @@ id position
 id postLayout
 id progress_circular
 id progress_horizontal
+id qbtn
 id radio
 id ratio
 id rectangles
@@ -2420,7 +2424,6 @@ layout abc_tooltip
 layout activity_gps
 layout activity_history_qr
 layout activity_main
-layout activity_qr_profile
 layout activity_read_qr
 layout activity_register
 layout browser_actions_context_menu_page
@@ -2445,6 +2448,7 @@ layout design_text_input_start_icon
 layout fragment_first
 layout fragment_home_page
 layout fragment_qr_profile
+layout fragment_scan_qr
 layout fragment_second
 layout fragment_user_profile
 layout material_chip_input_combo

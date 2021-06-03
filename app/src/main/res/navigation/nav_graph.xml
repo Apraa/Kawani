@@ -50,7 +50,7 @@
         tools:layout="@layout/fragment_home_page">
         <action
             android:id="@+id/action_HomePage_to_QR"
-            app:destination="@id/activity_ReadQR_previewView" />
+            app:destination="@id/QrProfile" />
     </fragment>
     <fragment
         android:id="@+id/UserProfile"
@@ -62,8 +62,18 @@
             app:destination="@id/UserProfile" />
     </fragment>
     <fragment
-        android:id="@+id/activity_ReadQR_previewView"
+        android:id="@+id/QrProfile"
         android:name="com.QrProfile"
         android:label="QR Profile"
-        tools:layout="@layout/fragment_qr_profile"/>
+        tools:layout="@layout/fragment_qr_profile">
+        <action
+            android:id="@+id/action_HomePage_to_Location"
+            app:destination="@id/QrProfile" />
+    </fragment>
+    <activity
+        android:id="@+id/ReaderQR"
+        android:name="com.ReadQR"
+        android:label="Scan QR"
+        tools:layout="@layout/fragment_scan_qr">
+    </activity>
 </navigation>
