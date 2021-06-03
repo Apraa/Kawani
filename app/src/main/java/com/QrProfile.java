@@ -63,5 +63,13 @@ public class QrProfile extends Fragment {
                         .navigate(R.id.action_GPS);
             }
         });
+
+        view.findViewById(R.id.gbtn).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View vb) {
+                NavHostFragment.findNavController(QrProfile.this)
+                        .navigate(R.id.CreateQR);
+            }
+        });
     }
 }

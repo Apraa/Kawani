@@ -97,5 +97,11 @@
         android:label="GPS"
         tools:layout="@layout/activity_gps">
     </activity>
+    <activity
+        android:id="@+id/CreateQR"
+        android:name="com.CreateQR"
+        android:label="GenerateQR"
+        tools:layout="@layout/activity_create_qr">
+    </activity>
 
 </navigation>

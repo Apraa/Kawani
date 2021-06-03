@@ -30,6 +30,7 @@
             </intent-filter>
         </activity>
         <activity android:name="com.ReadQR" />
+        <activity android:name="com.HistoryQR" />
 
         <meta-data
             android:name="com.google.android.gms.version"
