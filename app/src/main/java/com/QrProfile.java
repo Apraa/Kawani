@@ -48,7 +48,7 @@ public class QrProfile extends Fragment {
             }
         });
 
-        view.findViewById(R.id.QRHistory).setOnClickListener(new View.OnClickListener() {
+        view.findViewById(R.id.QRH).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View vv) {
                 NavHostFragment.findNavController(QrProfile.this)

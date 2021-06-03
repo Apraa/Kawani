@@ -71,7 +71,7 @@
             app:destination="@id/QrProfile" />
         <action
             android:id="@+id/action_History"
-            app:destination="@id/QRHistory"/>
+            app:destination="@id/QRH"/>
         <action
             android:id="@+id/action_ScanQR"
             app:destination="@id/ReaderQR"/>
@@ -86,7 +86,7 @@
         tools:layout="@layout/activity_read_qr">
     </activity>
     <activity
-        android:id="@+id/QRHistory"
+        android:id="@+id/QRH"
         android:name="com.HistoryQR"
         android:label="QR History"
         tools:layout="@layout/activity_history_qr">
