@@ -55,11 +55,11 @@
     <fragment
         android:id="@+id/UserProfile"
         android:name="com.UserProfile"
-        android:label="User Profile: "
+        android:label="User Profile:"
         tools:layout="@layout/fragment_user_profile">
         <action
-            android:id="@+id/action_HomePage_to_Profile"
-            app:destination="@id/UserProfile" />
+            android:id="@+id/action_HomePage_to_QR"
+            app:destination="@id/QrProfile" />
     </fragment>
     <fragment
         android:id="@+id/QrProfile"
@@ -72,6 +72,9 @@
         <action
             android:id="@+id/action_History"
             app:destination="@id/QRH"/>
+        <action
+            android:id="@+id/Home_to_Profile"
+            app:destination="@id/UserProfile"/>
         <action
             android:id="@+id/action_ScanQR"
             app:destination="@id/ReaderQR"/>
