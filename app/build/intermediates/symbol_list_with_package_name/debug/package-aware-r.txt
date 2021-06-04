@@ -2320,6 +2320,7 @@ id transition_position
 id transition_scene_layoutid_cache
 id transition_transform
 id triangle
+id tv
 id tv_accuracy
 id tv_address
 id tv_altitude
@@ -2434,6 +2435,7 @@ layout activity_create_qr
 layout activity_gps
 layout activity_history_qr
 layout activity_main
+layout activity_read_file
 layout activity_read_qr
 layout activity_rec_attend
 layout activity_register

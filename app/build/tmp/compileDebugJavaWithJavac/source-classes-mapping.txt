@@ -33,6 +33,8 @@ com/HomePage.java
  com.HomePage$3
 com/MainActivity.java
  com.MainActivity
+com/ReadFile.java
+ com.ReadFile
 com/QRCodeFoundListener.java
  com.QRCodeFoundListener
 com/QrProfile.java

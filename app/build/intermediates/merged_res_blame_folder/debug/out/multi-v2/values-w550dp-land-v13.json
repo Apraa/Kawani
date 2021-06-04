@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\Dexter\\Desktop\\LoginSystem\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-w550dp-land-v13\\values-w550dp-land-v13.xml",
+            "outputFile": "C:\\Users\\myles\\StudioProjects\\LoginSystem\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-w550dp-land-v13\\values-w550dp-land-v13.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\Dexter\\.gradle\\caches\\transforms-2\\files-2.1\\e9137092c42e725c23bf4e1cd61cc65d\\material-1.3.0\\res\\values-w550dp-land-v13\\values-w550dp-land-v13.xml",
+                    "source": "C:\\Users\\myles\\.gradle\\caches\\transforms-2\\files-2.1\\e9137092c42e725c23bf4e1cd61cc65d\\material-1.3.0\\res\\values-w550dp-land-v13\\values-w550dp-land-v13.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
