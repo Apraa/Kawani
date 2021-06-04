@@ -98,6 +98,12 @@
         tools:layout="@layout/activity_read_qr">
     </activity>
     <activity
+        android:id="@+id/ReadFile"
+        android:name="com.ReadFile"
+        android:label="Read File"
+        tools:layout="@layout/activity_read_file">
+    </activity>
+    <activity
         android:id="@+id/QRH"
         android:name="com.HistoryQR"
         android:label="QR History"

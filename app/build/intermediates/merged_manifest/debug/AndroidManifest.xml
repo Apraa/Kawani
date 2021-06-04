@@ -83,6 +83,7 @@
         android:label="Kawani"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
+        android:testOnly="true"
         android:theme="@style/Theme.Login" >
         <activity android:name="com.ReadFile" />
         <activity android:name="com.RecAttend" />

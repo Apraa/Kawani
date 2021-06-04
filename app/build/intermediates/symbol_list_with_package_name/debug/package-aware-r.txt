@@ -1829,6 +1829,7 @@ id CTRL
 id Department
 id EmailAddress
 id FUNCTION
+id FileCheck
 id FirstFragment
 id FullName
 id GenQR
@@ -1847,6 +1848,7 @@ id Position
 id Profile
 id QRH
 id QrProfile
+id ReadFile
 id ReaderQR
 id RecAttendButton
 id RegisterBtn

@@ -85,5 +85,12 @@ public class QrProfile extends Fragment {
                         .navigate(R.id.action_Gen);
             }
         });
+        view.findViewById(R.id.FileCheck).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View vc) {
+                NavHostFragment.findNavController(QrProfile.this)
+                        .navigate(R.id.ReadFile);
+            }
+        });
     }
 }

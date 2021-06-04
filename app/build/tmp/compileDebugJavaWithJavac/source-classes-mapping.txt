@@ -46,6 +46,7 @@ com/QrProfile.java
  com.QrProfile$5
  com.QrProfile$6
  com.QrProfile$7
+ com.QrProfile$8
 com/QRCodeImageAnalyzer.java
  com.QRCodeImageAnalyzer
 com/RecAttend.java
